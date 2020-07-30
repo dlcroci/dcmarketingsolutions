@@ -34,6 +34,7 @@ get_header();
                                     </label>
 
                                     <input type="submit" value="Enviar" class="btn-form">
+                                    <spam style="color: blue;"> &nbsp &nbsp &nbsp <?php echo $message ?></spam>
                                 </form>
 
                             <!-- formulario -->
@@ -68,7 +69,7 @@ get_header();
 
         mail($destinatario, $asunto, $cuerpo, $headers);
         
-        include 'confirmar.html; //se debe crear un html que confirma el envío
+        $message = "Mensaje enviado con éxito"
     }
     };
 ?>
