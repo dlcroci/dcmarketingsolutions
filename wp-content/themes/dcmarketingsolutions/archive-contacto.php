@@ -1,6 +1,7 @@
 <?php
 
-get_header(); ?>
+get_header();
+?>
 
 <main id="holder id_main">
         <section class="container">
@@ -19,7 +20,7 @@ get_header(); ?>
                             <!-- <br> -->
                             <!-- formulario de contacto -->
 
-                                <form action="/domains/dcmarketingsolutions.net/public_html/wp-content/themes/dcmarketingsolutions/envia.php" method="post" class="form-consulta"> 
+                                <form action="/envia.php" method="post" class="form-consulta"> 
                                     <label>Nombre y apellido: <span>*</span>
                                         <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
                                     </label>
