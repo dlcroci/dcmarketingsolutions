@@ -68,7 +68,7 @@ get_header();
 
         mail($destinatario, $asunto, $cuerpo, $headers);
         
-        // include 'confirmar.html; //se debe crear un html que confirma el envío
+        include 'confirmar.html; //se debe crear un html que confirma el envío
     }
     };
 ?>
