@@ -34,7 +34,7 @@ get_header();
                                     </label>
 
                                     <input type="submit" value="Enviar" class="btn-form">
-                                    <spam style="color: blue;"> &nbsp &nbsp &nbsp <?php echo $message ?></spam>
+                                    <spam style="color: blue;"> &nbsp &nbsp &nbsp <?php echo $message; ?></spam>
                                 </form>
 
                             <!-- formulario -->
@@ -69,7 +69,7 @@ get_header();
 
         mail($destinatario, $asunto, $cuerpo, $headers);
         
-        $message = "Mensaje enviado con éxito"
+        $message = "Mensaje enviado con éxito";
     }
     };
 ?>
