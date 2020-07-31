@@ -76,9 +76,10 @@ get_header();
 ?>
 <script>
     var mensaje = '<php? echo $mensaje; ?>'
-    if (mensaje = "si") { document.querySelector("testigo").setAttribute('class','mostrar')};
+    if (mensaje === "si") { document.querySelector("#testigo").setAttribute('class','mostrar')};
 </script>
 
 <?php get_footer();
+
 
 ?>
