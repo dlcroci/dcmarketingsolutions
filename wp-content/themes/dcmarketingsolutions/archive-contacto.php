@@ -35,7 +35,7 @@ get_header();
 
                                     <input type="submit" value="Enviar" class="btn-form">
                                     <br>
-                                    <spam id="testigo" class="ocultar" style="color: blue;"> &nbsp &nbsp &nbsp Mensaje enviado con éxito</spam>
+                                    <spam id="testigo" class="ocultar" style="color: blue;">Mensaje enviado con éxito</spam>
                                 </form>
 
                             <!-- formulario -->
@@ -75,7 +75,7 @@ get_header();
     };
 ?>
 <script>
-    var mensaje = '<php? echo $mensaje; ?>'
+    var mensaje = <?php echo $mensaje; ?>;
     if (mensaje === "si") { document.getElementById("testigo").classList.remove("ocultar"); };
 </script>
 
