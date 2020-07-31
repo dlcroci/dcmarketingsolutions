@@ -76,7 +76,7 @@ get_header();
 ?>
 <script>
     var mensaje = '<php? echo $mensaje; ?>'
-    if (mensaje === "si") { document.querySelector("#testigo").setAttribute('class','mostrar')};
+    if (mensaje === "si") { document.querySelector("#testigo").classList.remove("ocultar");};
 </script>
 
 <?php get_footer();
