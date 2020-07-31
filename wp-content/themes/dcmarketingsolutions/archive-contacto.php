@@ -75,7 +75,7 @@ get_header();
     };
 ?>
 <script>
-    var mensaje = <?php echo $mensaje; ?>;
+    var mensaje = '<?php echo $mensaje; ?>';
     if (mensaje === "si") { document.getElementById("testigo").classList.remove("ocultar"); };
 </script>
 
