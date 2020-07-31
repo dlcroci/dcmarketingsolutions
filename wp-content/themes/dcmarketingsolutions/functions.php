@@ -41,6 +41,16 @@ function send_mail_data() {
 	wp_redirect( home_url("/contacto/")."?sent=".$sendmail ); //asumiendo que existe esta url
 }
 
+add_filter('wp_mail_from', 'new_mail_from');
+add_filter('wp_mail_from_name', 'new_mail_from_name');
+function new_mail_from($old) {
+return 'info@dcmarketingsolutions.net';
+}
+function new_mail_from_name($old){
+return 'DC Marketing Solutions';
+}
+
+
 ?>
 
 
