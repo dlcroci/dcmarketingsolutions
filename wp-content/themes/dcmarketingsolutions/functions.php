@@ -23,9 +23,9 @@ add_action( 'admin_post_process_form', 'send_mail_data' );
 // Funcion callback
 function send_mail_data() {
 
-	$name = sanitize_text_field($_POST['name']);
+	$name = sanitize_text_field($_POST['nombre']);
 	$email = sanitize_email($_POST['email']);
-	$message = sanitize_textarea_field($_POST['message']);
+	$message = sanitize_textarea_field($_POST['mensaje']);
 
 	$adminmail = "dlcroci@hotmail.com"; //email destino
 	$subject = 'Formulario de contacto'; //asunto
