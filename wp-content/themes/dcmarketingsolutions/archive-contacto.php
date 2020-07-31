@@ -34,7 +34,8 @@ get_header();
                                     </label>
 
                                     <input type="submit" value="Enviar" class="btn-form">
-                                    <spam Class="mostrar" style="color: blue;"> &nbsp &nbsp &nbsp "Mensaje enviado con éxito"</spam>
+                                    <br>
+                                    <spam Class="ocultar" style="color: blue;"> &nbsp &nbsp &nbsp Mensaje enviado con éxito</spam>
                                 </form>
 
                             <!-- formulario -->
