@@ -1,6 +1,11 @@
 <?php
+/*
+Template Name: Página de Contacto
+*/
 
 get_header();
+
+
 ?>
 
 <main id="holder id_main">
@@ -20,21 +25,32 @@ get_header();
                             <!-- <br> -->
                             <!-- formulario de contacto -->
 
-                                <form action="" method="post" class="form-consulta"> 
+                                <form action="<?php echo admin_url( 'admin-post.php' ) ?>" method="post" class="form-consulta"> 
                                     <label>Nombre y apellido: <span>*</span>
-                                        <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+                                        <input type="text" name="nombre" id="name" placeholder="Nombre y apellido" class="campo-form" required>
                                     </label>
                                     
                                     <label>Email: <span>*</span>
-                                        <input type="email" name="email" placeholder="Email" class="campo-form" required>
+                                        <input type="email" name="email" id="email" placeholder="Email" class="campo-form" required>
                                     </label>
                                     
-                                    <label>Consulta:
-                                        <textarea name="consulta" class="campo-form"></textarea>
+                                    <label>Mensaje: <span>*</span>
+                                        <textarea name="mensaje" id="mensaje" class="campo-form" required></textarea>
                                     </label>
-
-                                    <input type="submit" value="Enviar" class="btn-form">
+                                    <input type="hidden" name="action" value="process_form">
+                                    <input type="submit" name="submit" value="Enviar" class="btn-form">
                                     <br>
+                                    <?php
+                                        
+                                        if ( isset($_GET['sent']) ){
+                                            if ( $_GET['sent'] == '1'){
+                                                echo "<p style='color: blue;'>✔ Formulario enviado correctamente</p><br>";
+                                            }
+                                            else {
+                                                echo "<p style='color: red;'>Hubo un error al enviar</p><br>";
+                                            }
+                                        }
+                                    ?>
                                 </form>
 
                             <!-- formulario -->
@@ -46,7 +62,9 @@ get_header();
         </section>
     </main>
 
-<?php get_footer();
+   
+<?php 
 
+get_footer();
 
 ?>

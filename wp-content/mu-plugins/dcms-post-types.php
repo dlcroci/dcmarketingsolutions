@@ -1,23 +1,23 @@
 <?php
 
 function dcms_post_types() {
-    register_post_type('contacto', array(
-      'show_in_rest' => true,
-      'supports' => array('title', 'editor', 'excerpt'),
-      'rewrite' => array('slug' => 'contacto'),
-      'has_archive' => true,
-      'public' => true,
-      'show_in_admin_bar' => false,
-      'show_in_menu' => false,
-      'labels' => array(
-        'name' => 'Contacto',
-        'add_new_item' => 'Add New Contacto',
-        'edit_item' => 'Edit Contacto',
-        'all_items' => 'All Contacts',
-        'singular_name' => 'Contacto'
-      ),
-      'menu_icon' => 'dashicons-calendar'
-    ));
+    // register_post_type('contacto', array(
+    //   'show_in_rest' => true,
+    //   'supports' => array('title', 'editor', 'excerpt'),
+    //   'rewrite' => array('slug' => 'contacto'),
+    //   'has_archive' => true,
+    //   'public' => true,
+    //   'show_in_admin_bar' => false,
+    //   'show_in_menu' => false,
+    //   'labels' => array(
+    //     'name' => 'Contacto',
+    //     'add_new_item' => 'Add New Contacto',
+    //     'edit_item' => 'Edit Contacto',
+    //     'all_items' => 'All Contacts',
+    //     'singular_name' => 'Contacto'
+    //   ),
+    //   'menu_icon' => 'dashicons-calendar'
+    // ));
     
     register_post_type('nosotros', array(
       'show_in_rest' => true,
