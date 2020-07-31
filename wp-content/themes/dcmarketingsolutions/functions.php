@@ -16,6 +16,11 @@ function dcms_features() {
 
 add_action('after_setup_theme', 'dcms_features');
 
+function codigoPHP ($atts){ 
+  include (TEMPLATEPATH .”/scripts/enviar.php”); 
+  }
+  add_shortcode (‘enviar’, ‘codigoPHP’);
+
 ?>
 
 

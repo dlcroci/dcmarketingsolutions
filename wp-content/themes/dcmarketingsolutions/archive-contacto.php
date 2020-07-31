@@ -20,7 +20,7 @@ get_header();
                             <!-- <br> -->
                             <!-- formulario de contacto -->
 
-                                <form action="<?php enviar(); ?>" method="post" class="form-consulta"> 
+                                <form action="[enviar]" method="post" class="form-consulta"> 
                                     <label>Nombre y apellido: <span>*</span>
                                         <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
                                     </label>
@@ -35,7 +35,6 @@ get_header();
 
                                     <input type="submit" value="Enviar" class="btn-form">
                                     <br>
-                                    <spam id="testigo" class="ocultar" style="color: blue;">Mensaje enviado con éxito</spam>
                                 </form>
 
                             <!-- formulario -->
@@ -46,38 +45,6 @@ get_header();
             </div>
         </section>
     </main>
-<?php
-    function enviar() {
-    $remitente = $_POST['email'];
-    $destinatario = 'dlcroci@hotmail.com'; // en esta línea va el mail del destinatario.
-    $asunto = 'Consulta para DC Marketing Solutions'; // acá se puede modificar el asunto del mail
-    if (!$_POST){
-    
-    }else{
-        
-        $cuerpo = "Nombre y apellido: " . $_POST["nombre"] . "\r\n"; 
-        $cuerpo .= "Email: " . $_POST["email"] . "\r\n";
-        $cuerpo .= "Consulta: " . $_POST["consulta"] . "\r\n";
-        //las líneas de arriba definen el contenido del mail. Las palabras que están dentro de $_POST[""] deben coincidir con el "name" de cada campo. 
-        // Si se agrega un campo al formulario, hay que agregarlo acá.
-
-        $headers  = "MIME-Version: 1.0\n";
-        $headers .= "Content-type: text/plain; charset=utf-8\n";
-        $headers .= "X-Priority: 3\n";
-        $headers .= "X-MSMail-Priority: Normal\n";
-        $headers .= "X-Mailer: php\n";
-        $headers .= "From: \"".$_POST['nombre']." ".$_POST['apellido']."\" <".$remitente.">\n";
-
-        mail($destinatario, $asunto, $cuerpo, $headers);
-        
-        $mensaje = "si";
-    }
-    };
-?>
-<script>
-    var mensaje = '<?php echo $mensaje; ?>';
-    if (mensaje === "si") { document.getElementById("testigo").classList.remove("ocultar"); };
-</script>
 
 <?php get_footer();
 

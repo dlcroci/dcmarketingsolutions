@@ -23,6 +23,6 @@ if (!$_POST){
 
     mail($destinatario, $asunto, $cuerpo, $headers);
     
-    include 'get_theme_file_uri('confirmar.html')'; //se debe crear un html que confirma el envío
+    // include 'get_theme_file_uri('confirmar.html')'; //se debe crear un html que confirma el envío
 }
 ?>
