@@ -28,7 +28,7 @@ function send_mail_data() {
 	$message = sanitize_textarea_field($_POST['mensaje']);
 
 	$adminmail = "dlcroci@hotmail.com"; //email destino
-	$subject = 'Formulario de contacto'; //asunto
+	$subject = 'Formulario de Contacto'; //asunto
 	$headers = "Reply-to: " . $name . " <" . $email . ">";
 
 	//Cuerpo del mensaje

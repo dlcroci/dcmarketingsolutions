@@ -16,8 +16,8 @@
                 </div>
                 <div class="item_26 container-footer-right">
                     <a class="item2" href="https://www.facebook.com/dcmarketingsolutions.net" target="_blank"><img src="<?php echo get_theme_file_uri('img/facebook.svg')?>;" alt="Logo Facebook"></a>
-                    <a class="item2" href="https://www.twitter.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/twitter.svg')?>;" alt="Logo Twitter"></a>
-                    <a class="item2" href="https://www.youtube.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/youtube.svg')?>;" alt="Logo Youtube"></a>
+                    <!-- <a class="item2" href="https://www.twitter.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/twitter.svg')?>;" alt="Logo Twitter"></a>
+                    <a class="item2" href="https://www.youtube.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/youtube.svg')?>;" alt="Logo Youtube"></a> -->
                     <a class="item2" href="https://www.instagram.com/dcmarketingsolutions" target="_blank"><img src="<?php echo get_theme_file_uri('img/instagram.svg')?>;" alt="Logo Instagram"></a>
                 </div>
                 <div class="item_27 copy">
