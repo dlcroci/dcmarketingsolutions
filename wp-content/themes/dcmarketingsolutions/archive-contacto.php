@@ -20,7 +20,7 @@ get_header();
                             <!-- <br> -->
                             <!-- formulario de contacto -->
 
-                                <form action="[enviar]" method="post" class="form-consulta"> 
+                                <form action="<?php [enviar] ?>" method="post" class="form-consulta"> 
                                     <label>Nombre y apellido: <span>*</span>
                                         <input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
                                     </label>
