@@ -7,15 +7,15 @@ function dcms_files() {
   wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
   wp_enqueue_style('dcms_main_styles', get_stylesheet_uri());
 }
-
 add_action('wp_enqueue_scripts', 'dcms_files');
+
 
 function dcms_features() {
   add_theme_support('title-tag');
 }
-
 add_action('after_setup_theme', 'dcms_features');
 
+// Envio Formulario Correo
 // Hooks admin-post
 add_action( 'admin_post_nopriv_process_form', 'send_mail_data' );
 add_action( 'admin_post_process_form', 'send_mail_data' );
@@ -27,7 +27,7 @@ function send_mail_data() {
 	$email = sanitize_email($_POST['email']);
 	$message = sanitize_textarea_field($_POST['message']);
 
-	$adminmail = "destino@dominio.com"; //email destino
+	$adminmail = "dlcroci@hotmail.com"; //email destino
 	$subject = 'Formulario de contacto'; //asunto
 	$headers = "Reply-to: " . $name . " <" . $email . ">";
 
