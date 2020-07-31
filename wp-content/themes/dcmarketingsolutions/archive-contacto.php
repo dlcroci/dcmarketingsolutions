@@ -34,7 +34,7 @@ get_header();
                                     </label>
 
                                     <input type="submit" value="Enviar" class="btn-form">
-                                    <spam style="color: blue;"> &nbsp &nbsp &nbsp <?php echo $mensaje; ?></spam>
+                                    <spam Class="mostrar" style="color: blue;"> &nbsp &nbsp &nbsp "Mensaje enviado con éxito"</spam>
                                 </form>
 
                             <!-- formulario -->
@@ -69,10 +69,15 @@ get_header();
 
         mail($destinatario, $asunto, $cuerpo, $headers);
         
-        $mensaje = "Mensaje enviado con éxito";
+        $mensaje = "si";
     }
     };
 ?>
+<script>
+    var mensaje = '<php? echo $mensaje; ?>'
+    if (mensaje = "si") { document.querySelector("mostrar").setAttribute('class','mostrar')};
+</script>
+
 <?php get_footer();
 
 ?>
