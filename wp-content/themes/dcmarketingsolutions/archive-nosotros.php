@@ -26,7 +26,7 @@ get_header(); ?>
                                 <li>Ecommerce</li>
                                 <li>Planes de Marketing 4.0</li>
                             </ul>
-                            <p style="text-align: left;">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
+                            <p style="text-align: justify;">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
                                 gestión necesaria para mejorar, posibilitando una administración eficiente de los recursos. Detectamos oportunidades de negocios, basadas en análisis de información estadística y estudios especiales. Participamos de las decisiones
                                 de negocios que toman nuestros clientes, y acompañamos su crecimiento.</p>
                             <br class="altura">

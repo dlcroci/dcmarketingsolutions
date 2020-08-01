@@ -58,9 +58,9 @@
                                     </a>
                                 </div>
                                 <div class="item_16 linea_azul2"></div>
-                                <div class="item_17 queremos-ayudarte-texto" id="id_5">
+                                <div class="item_17 queremos-ayudarte-texto containerX container--narrow page-section" id="id_5">
                                     <br>
-                                    <p style="text-align: left;">Tal vez seas el responsable de un negocio y el mismo no está alcanzando los resultados que deseas, ya sea por <strong>falta de crecimiento</strong>, por
+                                    <p style="text-align: justify;">Tal vez seas el responsable de un negocio y el mismo no está alcanzando los resultados que deseas, ya sea por <strong>falta de crecimiento</strong>, por
                                         <strong>falta de rentabilidad</strong> o por ambas causas. O tal vez tu negocio sea exitoso, pero tu intuición te indica que tiene potencial para mucho más.
                                         <br><br>Por otra parte desconfías de los asesores o consultores, ya que muchas veces solo aportan soluciones que son muy teóricas, poco profundas, que no fueron especialmente diseñadas para tu negocio y por lo tanto son poco aterrizadas
                                         a la realidad. Y aque ellos, muchas veces, adolecen de la experiencia que posee la gente que ha liderado negocios concretos y reales. Sus recomendaciones están llenas de frases que parecen pomposas (ej.: «Planeamiento Estratégico»,
@@ -94,7 +94,7 @@
                                     <a style="text-decoration: none" href=" ">
                                         <h3 class="meetUs">Conócenos</h3>
                                     </a>
-                                    <p style="text-align:left;">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
+                                    <p style="text-align: justify;">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
                                     <ul class="font-bold-grey">
                                         <li>Social Media Marketing</li>
                                         <li>Diseño de páginas web</li>
@@ -102,7 +102,7 @@
                                         <li>Ecommerce</li>
                                         <li>Planes de Marketing 4.0</li>
                                     </ul>
-                                    <p style="text-align: left;">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
+                                    <p style="text-align: justify;">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
                                         gestión necesaria para mejorar, posibilitando una administración eficiente de los recursos. Detectamos oportunidades de negocios, basadas en análisis de información estadística y estudios especiales. Participamos de las decisiones
                                         de negocios que toman nuestros clientes, y acompañamos su crecimiento.</p>
                                     <br class="altura">
