@@ -10,7 +10,7 @@
                         <div id="id_servicios">
                             <div class="grid-container3" id="servicios">
                                 <div class="item_4 proposal">
-                                    <h1 id="tenemos_una_estrategia">TENEMOS UNA ESTRATEGIA DE MARKETING ON-LINE PARA TU IDEA</h1>
+                                    <h1 id="tenemos_una_estrategia">TENEMOS UNA ESTRATEGIA DE MARKETING DIGITAL PARA TU IDEA</h1>
                                 </div>
                                 <div class="item_5 linea2"></div>
                                 <div class="item_6">
