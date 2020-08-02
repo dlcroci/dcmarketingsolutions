@@ -28,6 +28,7 @@ get_header(); ?>
                         <li>Además, podemos combinar información personal con otra información que recopilamos u obtenemos sobre ti (como la información que obtenemos de nuestros socios externos) para servirte específicamente, como para entregar un producto o servicio de acuerdo con tus preferencias o restricciones, o con fines publicitarios o de orientación de acuerdo con esta Política de Privacidad. Cuando combinamos información personal con otra información de esta manera, la tratamos y aplicamos todas las garantías de esta Política de Privacidad aplicables a la información personal.</li>
                     </ul>
                     <p>Si tienes alguna pregunta o inquietud relacionada con esta Política de Privacidad, por favor contáctanos.</p>
+                    <h2>DC Marketing Solutions: Especialistas en Marketing Digital - Barceloba, Panamá y Buenos Aires</h2>
                     <br>	
                 </div>
             </div>
