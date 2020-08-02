@@ -10,7 +10,7 @@ get_header(); ?>
                 <div id="id_servicios">
                     <h2 id="id_7">Servicios</h2><div class="grid-container3" id="servicios">
                         <div class="item_4 proposal">
-                            <h1 id="tenemos_una_estrategia" class="tenemos">TENEMOS UNA ESTRATEGIA DE MARKETING ON-LINE PARA TU IDEA</h1>
+                            <h1 id="tenemos_una_estrategia" class="tenemos">CONTAMOS CON UNA SÓLIDA EXPERIENCIA EN MARKETING DIGITAL</h1>
                         </div>
                         <div class="item_5 linea2"></div>
                         <div class="item_6">
@@ -27,16 +27,16 @@ get_header(); ?>
                         </div>
                         <div class="item_9 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2 class="t2">Publicidad On-line</h2>
+                                <h2 class="t2">Inbound Marketing</h2>
                             </a>
-                            <p>Campañas en Google Ads (SEM). Landings de productos o empresariales.</p>
+                            <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                         </div>
                         <div class="item_10">
                             <div class="diseño-web-logo"></div>
                         </div>
                         <div class="item_11 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2>Diseño Web</h2>
+                                <h2 class="t2">Diseño Web</h2>
                             </a>
                             <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                         </div>

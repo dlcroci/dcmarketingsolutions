@@ -98,7 +98,7 @@
                                     <ul class="font-bold-grey">
                                         <li>Social Media Marketing</li>
                                         <li>Diseño de páginas web</li>
-                                        <li>Publicidad On-line</li>
+                                        <li>Inbound Marketing</li>
                                         <li>Ecommerce</li>
                                         <li>Planes de Marketing 4.0</li>
                                     </ul>

@@ -17,12 +17,14 @@ get_header(); ?>
                         <div class="item_23 container-texto-conocenos">
                             <a style="text-decoration: none" href=" ">
                                 <h3 class="meetUs">Conócenos</h3>
-                            </a>
-                            <p style="text-align:left;">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
+                            </a>  
+                            <div style="text-align:left;">
+                            <h1 style="display:inline;" class="clase_p">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>.</h1> Nos especializamos en:
+                            </div>
                             <ul class="font-bold-grey">
                                 <li>Social Media Marketing</li>
                                 <li>Diseño de páginas web</li>
-                                <li>Publicidad On-line</li>
+                                <li>Inbound Marketing</li>
                                 <li>Ecommerce</li>
                                 <li>Planes de Marketing 4.0</li>
                             </ul>

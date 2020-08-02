@@ -86,6 +86,14 @@ p {
     color: #585858;
 }
 
+.clase_p {
+    margin: 0px;
+    padding: 0px;
+    color: #585858;
+    font-size: 16px;
+    font-weight: normal;
+}
+
 /* a {
     margin: 0px;
     padding: 0px;
