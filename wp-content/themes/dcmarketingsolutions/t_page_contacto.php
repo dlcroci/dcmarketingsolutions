@@ -13,7 +13,7 @@ get_header();
             <div class="section-container">
                 <div class="container1" id="id_container">
                     <div class="main-formulario">
-                        <h2 style="color: #185ea6; margin: auto; line-height: 60px; font-size: 40px; text-align: center;">Contáctanos</h2>
+                        <h1 style="color: #185ea6; margin: auto; line-height: 60px; font-size: 40px; text-align: center;">Contáctanos</h1>
                         <br>
                         <div class="columna-left">
                             <h2 style="color: #e86000;">¿Necesitas contactarnos?</h2>
