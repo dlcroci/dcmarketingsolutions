@@ -94,6 +94,11 @@ p {
     font-weight: normal;
 }
 
+.underline-blog {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 /* a {
     margin: 0px;
     padding: 0px;
