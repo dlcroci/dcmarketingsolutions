@@ -2,7 +2,7 @@
 <html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="description" content="DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Diseño de páginas web, Inbound Marketing, Ecommerce y Planes de Marketing 4.0, con orientación a resultados.">
+    <meta name="description" content="DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing,  Inbound Marketing, Ecommerce y Diseño de Páginas Web.">
     <meta name="keywords" content="marketing, marketing digital, social, community manager, ecommerce, diseño de páginas web">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->

@@ -18,7 +18,7 @@
                                 </div>
                                 <div class="item_7 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h2 class="t2">Social Media</h2>
+                                        <h3 class="t2">Social Media</h3>
                                     </a>
                                     <p>Community management. Creación y promoción de contenidos digitales.</p>
                                 </div>
@@ -27,7 +27,7 @@
                                 </div>
                                 <div class="item_9 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h2 class="t2">Publicidad On-line</h2>
+                                        <h3 class="t2">Publicidad On-line</h3>
                                     </a>
                                     <p>Campañas en Google Ads (SEM). Landings de productos o empresariales.</p>
                                 </div>
@@ -36,7 +36,7 @@
                                 </div>
                                 <div class="item_11 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h2>Diseño Web</h2>
+                                        <h3>Diseño Web</h3>
                                     </a>
                                     <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                                 </div>
@@ -45,7 +45,7 @@
                                 </div>
                                 <div class="item_13 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h2 class="t2">Ecommerce</h2>
+                                        <h3 class="t2">Ecommerce</h3>
                                     </a>
                                     <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                                 </div>
@@ -54,7 +54,7 @@
                                 <div class="item_14 linea_azul1"></div>
                                 <div class="item_15">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="weWantHelpYou centrar">Queremos ayudarte</h3>
+                                        <h2 class="weWantHelpYou centrar t2">Queremos ayudarte</h2>
                                     </a>
                                 </div>
                                 <div class="item_16 linea_azul2"></div>

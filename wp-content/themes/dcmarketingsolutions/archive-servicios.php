@@ -18,7 +18,7 @@ get_header(); ?>
                         </div>
                         <div class="item_7 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2 class="t2">Social Media</h2>
+                                <h3 class="t2">Social Media</h3>
                             </a>
                             <p>Community management. Creación y promoción de contenidos digitales.</p>
                         </div>
@@ -27,7 +27,7 @@ get_header(); ?>
                         </div>
                         <div class="item_9 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2 class="t2">Inbound Marketing</h2>
+                                <h3 class="t2">Inbound Marketing</h3>
                             </a>
                             <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                         </div>
@@ -36,7 +36,7 @@ get_header(); ?>
                         </div>
                         <div class="item_11 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2 class="t2">Diseño Web</h2>
+                                <h3 class="t2">Diseño Web</h3>
                             </a>
                             <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                         </div>
@@ -45,7 +45,7 @@ get_header(); ?>
                         </div>
                         <div class="item_13 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h2 class="t2">Ecommerce</h2>
+                                <h3 class="t2">Ecommerce</h3>
                             </a>
                             <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                         </div>
