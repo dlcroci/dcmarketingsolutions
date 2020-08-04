@@ -19,7 +19,18 @@
   <body <?php body_class(); ?>>
         <div class="holder grid-container1">
             <header class="item_1">
-                <a href="<?php echo site_url() ?>"><img src="<?php echo get_theme_file_uri('/img/Logo-Final-Marketing-Solutions-Sin-Sombra.jpg') ?>;" class="logo_dc" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital"></a>
+                <a href="<?php echo site_url() ?>">
+                    <picture>
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.jpf 500w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.jpf 1000w');?>">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.jpf 360w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.jpf 720w');?>">
+                        <source srcset="assets/images/hero--small.jpg 259w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 519px">
+                        <img srcset="assets/images/hero--smaller.jpg 167w, assets/image-hero--smaller-hi-dpi.jpg 337w" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
+                    </picture>
+
+                <!-- <img src="<?php echo get_theme_file_uri('/img/Logo-Final-Marketing-Solutions-Sin-Sombra.jpg') ?>"
+                class="logo_dc" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital"></ -->
+                
+                a>
             </header>
             <nav class="item_2">
                 <ul>
