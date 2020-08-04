@@ -21,10 +21,10 @@
             <header class="item_1">
                 <a href="<?php echo site_url() ?>">
                     <picture>
-                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.jpf 500w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.jpf 1000w');?>">
-                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.jpf 360w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.jpf 720w');?>">
-                        <source srcset="assets/images/hero--small.jpg 259w, assets/images/hero--small-hi-dpi.jpg 1980w" media="(min-width: 519px">
-                        <img srcset="assets/images/hero--smaller.jpg 167w, assets/image-hero--smaller-hi-dpi.jpg 337w" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.jpf 500w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.jpf 1000w');?>" media="(min-width: 1380px)">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.jpf 360w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.jpf 720w');?>" media="(min-width: 990px)">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--small.jpf 259w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--small-hi-dpi.jpf 519w');?>" media="(min-width: 640px)">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--smaller.jpf 167w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--smaller-hi-dpi.jpf 337w');?>" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
                     </picture>
 
                 <!-- <img src="<?php echo get_theme_file_uri('/img/Logo-Final-Marketing-Solutions-Sin-Sombra.jpg') ?>"
