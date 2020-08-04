@@ -19,7 +19,7 @@
   <body <?php body_class(); ?>>
         <div class="holder grid-container1">
             <header class="item_1">
-                <a href="<?php echo site_url() ?>">
+                <a href="<?php echo site_url() ?>"
                     <picture>
                         <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.jpf 500w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.jpf 1000w');?>" media="(min-width: 1380px)">
                         <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.jpf 360w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.jpf 720w');?>" media="(min-width: 990px)">
@@ -27,10 +27,7 @@
                         <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--smaller.jpf 167w');?>, <?php echo get_theme_file_uri('/img/Logo_Header--smaller-hi-dpi.jpf 337w');?>" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
                     </picture>
 
-                <!-- <img src="<?php echo get_theme_file_uri('/img/Logo-Final-Marketing-Solutions-Sin-Sombra.jpg') ?>"
-                class="logo_dc" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital"></ -->
-                
-                a>
+                </a>
             </header>
             <nav class="item_2">
                 <ul>
