@@ -323,10 +323,11 @@ header {
     align-items: center;
 }
 
-// .logo_dc {
-//     width: 461px;
-//     height: 65px;
-// }
+.logo_dc {
+    // display: block;
+    max-width: 500px;
+    // height: 65px;
+}
 
 nav {
     margin: 0px;
@@ -922,10 +923,10 @@ textarea {
         max-width: 420px;
     }
 
-    // .logo_dc {
-    //     max-width: 400px;
-    //     max-height: 57px;
-    // }
+    .logo_dc {
+        max-width: 500px;
+        // max-height: 57px;
+    }
     
     .grid-container3 {
         grid-template-areas:
@@ -1000,10 +1001,10 @@ textarea {
         max-width: 420px;
     }
 
-    // .logo_dc {
-    //     max-width: 350px;
-    //     max-height: 51px;
-    // }
+    .logo_dc {
+        max-width: 350px;
+        // max-height: 51px;
+    }
 
     .container-photo {
         width: 365px;
