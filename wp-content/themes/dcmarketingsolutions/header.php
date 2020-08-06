@@ -19,8 +19,8 @@
   <body <?php body_class(); ?>>
         <div class="holder grid-container1">
             <header class="item_1">
-                <a class="logo_dc" href="<?php echo site_url() ?>">
-                    <picture class="logo_dc">
+                <a href="<?php echo site_url() ?>">
+                    <picture>
                     <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.jpg 500w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.jpg 1000w')?>" media="(min-width: 1380px)">
                     <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.jpg 360w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.jpg 720w')?>" media="(min-width: 990px)">
                     <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--small.jpg 259w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--small-hi-dpi.jpg 519w')?>" media="(min-width: 640px)">

@@ -1,7 +1,12 @@
 <footer class="holder">
             <div class="grid-container7 container-footer">
-                <div class="item_24 logo-footer">
-                <a href="<?php echo site_url() ?>"><img src="<?php echo get_theme_file_uri('/img/Logo-Final-Marketing-Solutions-Sin-Sombra.png')?>;" alt="DC Marketing Solutions Logo"></a>
+                <div class="item_24">
+                    <a href="<?php echo site_url() ?>">
+                        <picture>
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large.jpg 302w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--large-hi-dpi.jpg 604w')?>" media="(min-width: 1200px)">
+                        <img srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--medium.jpg 218w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--medium-hi-dpi.jpg 435w')?>" media="(min-width: 640px)" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_footer">
+                        </picture>
+                    </a>
                 </div>
                 <div class="item_25">
                 <ul class="container-menu-footer">

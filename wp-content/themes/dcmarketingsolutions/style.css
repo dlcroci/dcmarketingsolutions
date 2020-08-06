@@ -908,10 +908,7 @@ textarea {
         grid-template-columns: 10% 80% 10%;
     }
 
-     .logo-footer {
-        margin: 10px auto 0px auto;
-    }
-
+    
      .container-footer-right {
          margin: auto;
     }
@@ -1388,4 +1385,9 @@ background-color: #DEDEDE;
 
 .headline--post-title a:hover {
     text-decoration: underline;
+}
+
+.logo_footer {
+    max-width: 280px;
+    margin: 10px auto 0px auto;
 }
