@@ -3,7 +3,8 @@
                 <div class="item_24">
                     <a href="<?php echo site_url() ?>">
                         <picture>
-                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large.jpg 302w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--large-hi-dpi.jpg 604w')?>" media="(min-width: 1200px)">
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large-hi-dpi.jpg 604w')?>" media="(min-width: 1380px)">    
+                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large.jpg 302w')?>" media="(min-width: 1200px)">
                         <img srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--medium.jpg 218w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--medium-hi-dpi.jpg 435w')?>" media="(min-width: 640px)" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_footer">
                         </picture>
                     </a>
