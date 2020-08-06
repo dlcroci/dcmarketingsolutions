@@ -34,9 +34,9 @@
                                 </div>
                                 <div class="item_9 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="t2">Publicidad On-line</h3>
+                                        <h3 class="t2">Inbound Marketing</h3>
                                     </a>
-                                    <p>Campañas en Google Ads (SEM). Landings de productos o empresariales.</p>
+                                    <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                                 </div>
                                 <div class="item_10">
                                     <div class="diseño-web-logo"></div>
