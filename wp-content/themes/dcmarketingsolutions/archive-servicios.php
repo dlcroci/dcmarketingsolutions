@@ -63,11 +63,13 @@ get_header(); ?>
                             <p style="text-align: justify;">
                             El marketing digital consiste en una serie de estrategias destinadas a promocionar marcas en Internet. Se diferencia del marketing tradicional en que incluye el uso de canales y métodos que pueden analizar los resultados en tiempo real. El marketing digital se utiliza para llevar productos o servicios a clientes potenciales a través de medios digitales. Algunas de las ventajas del marketing digital (frente al marketing tradicional) son:
                             </p>
-                            <ul style="text-align: left;">
-                            <li>Resultados medibles</li>
-                            <li>Cobertura global</li>
-                            <li>Inmediatez y precisión de los objetivos</li>
-                            </ul>
+                            <p>
+                                <ul style="text-align: left; font-weight: bold; color: blue;">
+                                    <li>Resultados medibles</li>
+                                    <li>Cobertura global</li>
+                                    <li>Inmediatez y precisión de los objetivos</li>
+                                </ul>
+                            </p>
                             <p style="text-align: justify;">
                             El marketing digital es la aplicación de estrategias de marketing ejecutadas en medios digitales. Todas las tecnologías del mundo fuera de línea se imitan y se transforman en un mundo nuevo, el mundo en línea. En el ámbito digital, han surgido nuevas herramientas, como la inmediatez, nuevas redes sociales o comunitarias que surgen todos los días y la posibilidad de medir cada estrategia utilizada.
                             </p>
