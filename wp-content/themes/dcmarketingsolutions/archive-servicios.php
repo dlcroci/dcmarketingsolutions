@@ -80,7 +80,7 @@ get_header(); ?>
                             Es por esto que las estrategias digitales deben incluir todos los espacios relevantes para la interacción con el target, buscando influir en las opiniones y los formadores de opinión, mejorando los resultados de los buscadores y analizando la información que brindan estos medios para optimizar los efectos de las acciones realizadas. El marketing digital es una colección de diseño, creatividad, rentabilidad y análisis que siempre busca el ROI.
                             </p>
                             <p style="text-align: justify;">
-                            Nosotros te ofrecemos ayudarte y acompañarte para que puedas aplicar todo estas herramientas a tu negocio: <Strong>Desarrollo de Páginas Web, SEO, Marketing Inbound, Social Media Marketing y Ecommerce</Strong>. Solo llámanos o escríbenos para concretar una cita y te contaremos las características de nuestras herramientas de <strong>Planeación Estratégica</strong> y de <strong>Marketing Digital</strong>.
+                            Nosotros te ofrecemos ayudarte y acompañarte para que puedas aplicar todo estas herramientas a tu negocio: <Strong style="color: DarkBlue;">Desarrollo de Páginas Web, SEO, Marketing Inbound, Social Media Marketing y Ecommerce</Strong>. Solo llámanos o escríbenos para concretar una cita y te contaremos las características de nuestras herramientas de <strong style="color: DarkBlue;">Planeación Estratégica</strong> y de <strong style="color: DarkBlue;">Marketing Digital</strong>.
                             <br><br id="id_6">Llámanos / Escríbenos al: +54 911 2831 0850 (Buenos Aires), +507 6085 5475 (Panamá), +34 640 87 8511 (Barcelona).
                             </p>
                         </div>
