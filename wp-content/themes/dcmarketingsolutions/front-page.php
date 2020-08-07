@@ -98,7 +98,7 @@
                                         negocios </strong> y las ganas de trabajar junto a vos en la definición de una estrategia de negocio que sea
                                     exitosa, adaptada a tus necesidades y que genere una performance superior a la de tus competidores. Solo llámanos
                                     para concretar una cita y te contaremos las características de nuestras herramientas de <strong>Planeación Estratégica</strong> y de <strong>Marketing Digital</strong>.
-                                    <br> <br id="id_6">Llámanos al +54 911 2831 0850.</p><br>
+                                    <br> <br id="id_6">Llámanos / Escríbenos al: +54 911 2831 0850 (Buenos Aires), +507 6085 5475 (Panamá), +34 640 87 8511 (Barcelona).</p><br>
                                 </div>
                             </div>
                         </div>
