@@ -34,7 +34,7 @@
 
             </div>
           </div> 
-        <?php the_post_thumbnail(); the_content(); ?></div>
+        </div>
       </div>
     </div>
     
