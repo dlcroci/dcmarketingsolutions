@@ -28,10 +28,9 @@
           <div class="row grup">
             <div class="one-third">
                 <?php the_post_thumbnail(); ?>
-            </div>
-                <?php the_content(); ?>
+            </div>    
             <div class="two-third">
-
+            <?php the_content(); ?>
             </div>
           </div> 
         </div>
