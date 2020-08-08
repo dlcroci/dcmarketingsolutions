@@ -21,7 +21,7 @@ function dcms_post_types() {
     
     register_post_type('nosotros', array(
       'show_in_rest' => true,
-      'supports' => array('title', 'editor', 'excerpt'),
+      'supports' => array('title', 'editor', 'excerpt', 'thumbnail'),
       'rewrite' => array('slug' => 'nosotros'),
       'has_archive' => true,
       'public' => true,

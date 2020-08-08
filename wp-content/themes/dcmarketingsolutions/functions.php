@@ -12,7 +12,9 @@ add_action('wp_enqueue_scripts', 'dcms_files');
 
 function dcms_features() {
   add_theme_support('title-tag');
+  add_theme_support('post-thumbnails');
 }
+
 add_action('after_setup_theme', 'dcms_features');
 
 // Envio Formulario Correo
