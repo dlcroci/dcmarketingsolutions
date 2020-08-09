@@ -26,7 +26,7 @@
       
         <div class= "generic-content">
           <div class="row grup">
-            <div>
+            <div style="margin: 10px auto">
                 <?php the_post_thumbnail(); ?>
             </div>    
             <div>
