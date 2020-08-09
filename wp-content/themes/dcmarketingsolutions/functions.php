@@ -13,6 +13,8 @@ add_action('wp_enqueue_scripts', 'dcms_files');
 function dcms_features() {
   add_theme_support('title-tag');
   add_theme_support('post-thumbnails');
+  add_image_size('photoLandscape', 400, 260, true);
+  add_image_size('photoPortrait', 480, 650, true);
 }
 
 add_action('after_setup_theme', 'dcms_features');

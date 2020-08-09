@@ -26,10 +26,10 @@
       
         <div class= "generic-content">
           <div class="row grup">
-            <div class="one-third">
+            <div>
                 <?php the_post_thumbnail(); ?>
             </div>    
-            <div class="two-third">
+            <div>
             <?php the_content(); ?>
             </div>
           </div> 
