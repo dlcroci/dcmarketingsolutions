@@ -26,7 +26,7 @@
       
         <div class= "generic-content">
           <div class="row grup">
-            <div style="margin: 10px auto">
+            <div style="display: flex; align-items: center; justify-content: center;">
                 <?php the_post_thumbnail(); ?>
             </div>    
             <div>
