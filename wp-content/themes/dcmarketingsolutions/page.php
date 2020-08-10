@@ -37,7 +37,7 @@
 
       if ($theParent or $testArray) { ?>
         <div class="page-links">
-          <h2 class="page-links__title"><a href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></h2>
+          <h2 class="page-links__title" style="border-radius: 0; padding: 8px 0 9px 0"><a style="display: block;" href="<?php echo get_permalink($theParent); ?>"><?php echo get_the_title($theParent); ?></a></h2>
           <ul class="min-list">
     <?php
           if ($theParent) {

@@ -27,7 +27,7 @@
         <div class= "generic-content">
           <div class="row grup">
             <div style="display: flex; align-items: center; justify-content: center;">
-                <?php the_post_thumbnail(); ?>
+                <?php the_post_thumbnail('photoLandscape'); ?>
             </div>    
             <div>
             <?php the_content(); ?>
