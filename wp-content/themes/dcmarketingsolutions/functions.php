@@ -70,10 +70,12 @@ function registrar_sidebar(){
   }
   add_action( 'widgets_init', 'registrar_sidebar');
 
+
+  //Meta-description
   function wpse_custom_meta_description(){
     if ( ! is_single() && ! is_page())
         return;
-    $desc = get_post_meta( get_queried_object_id(), 'descripcion', true );
+    $desc = get_post_meta( get_queried_object_id(), 'description', true );
     if( ! empty( $desc ) )
         printf( 
             '<meta name="description" content="%s" />',
