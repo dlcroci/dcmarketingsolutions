@@ -71,7 +71,7 @@ function registrar_sidebar(){
   add_action( 'widgets_init', 'registrar_sidebar');
 
 
-  //Meta-description
+  //Meta-keywords
   function wpse_custom_meta_keywords(){
     if ( ! is_single() && ! is_page())
         return;
