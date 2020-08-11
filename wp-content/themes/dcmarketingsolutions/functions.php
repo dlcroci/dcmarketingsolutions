@@ -68,7 +68,7 @@ function registrar_sidebar(){
 	 'after_title' => '</h2>',
 	));
   }
-  add_action( 'widgets_init', 'registrar_sidebar');
+add_action( 'widgets_init', 'registrar_sidebar');
 
 
 /*Display custom meta description or the post excerpt */
@@ -87,8 +87,30 @@ function add_custom_meta_des(){
 			$meta_des = esc_html($des);
 			echo '<meta name="description" content="' . $meta_des . '" />';
 		}
-	}}
-	add_action( 'wp_head', 'add_custom_meta_des', 4 );
+	}
+}
+add_action( 'wp_head', 'add_custom_meta_des', 4 );
+
+
+/*Display custom meta keywords or the post excerpt */
+function add_custom_meta_keywords(){
+
+	#Homepage Meta Keywords
+	if( is_home() || is_front_page() ){
+		$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panama, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital panama, agencia, digital"; #Edit here
+		echo '<meta name="keywords" content="' . $meta_keywords . '" />';
+	}
+	
+	#Single Page Meta Keywords
+	if( is_single() ||  is_page() ){
+		$keywords = get_post_meta( get_the_id(), 'keywords', true);
+		if( ! empty( $keywords )  ){
+			$meta_keywords = esc_html($keywords);
+			echo '<meta name="keywords" content="' . $meta_keywords . '" />';
+		}
+	}
+}
+add_action( 'wp_head', 'add_custom_meta_keywords', 4 );
 
 ?>
 
