@@ -72,17 +72,17 @@ function registrar_sidebar(){
 
 
   //Meta-description
-  function wpse_custom_meta_description(){
+  function wpse_custom_meta_keywords(){
     if ( ! is_single() && ! is_page())
         return;
-    $desc = get_post_meta( get_queried_object_id(), 'description', true );
+    $desc = get_post_meta( get_queried_object_id(), 'keywords', true );
     if( ! empty( $desc ) )
         printf( 
-            '<meta name="description" content="%s" />',
+            '<meta name="keywords" content="%s" />',
             esc_attr( trim( $desc ) )
         );
 }
-add_action( 'wp_head', 'wpse_custom_meta_description' , 2 );
+add_action( 'wp_head', 'wpse_custom_meta_keywords' , 2 );
 
 
 ?>
