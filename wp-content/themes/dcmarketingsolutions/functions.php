@@ -81,7 +81,7 @@ function add_custom_meta_des(){
 	}
 	
 	#Single Page Meta Description
-	if( is_single() || ( is_page() ){
+	if( is_single() ||  is_page() ){
 		$des = get_post_meta( get_the_id(), 'description', true);
 		if( ! empty( $des )  ){
 			$meta_des = esc_html($des);
