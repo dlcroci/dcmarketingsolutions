@@ -2,7 +2,6 @@
 <html <?php language_attributes(); ?>>
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
-    <!-- <meta name="description" content="DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."> -->
     <meta name="keywords" content="marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panama, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital panama, agencia, digital">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -39,6 +38,8 @@
                 </ul>
             </nav>
         </div>
+
+<!-- <meta name="description" content="DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."> -->
 
 
         

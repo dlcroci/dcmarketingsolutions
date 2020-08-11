@@ -76,7 +76,7 @@ function add_custom_meta_des(){
 
 	#Homepage Meta Description
 	if( is_home() || is_front_page() ){
-		$meta_des = "Enter your homepage meta description here"; #Edit here
+		$meta_des = "DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."; #Edit here
 		echo '<meta name="description" content="' . $meta_des . '" />';
 	}
 	
