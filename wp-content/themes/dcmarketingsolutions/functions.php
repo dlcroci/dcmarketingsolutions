@@ -54,6 +54,35 @@ function new_mail_from_name($old){
 return 'DC Marketing Solutions';
 }
 
+
+//Sidebar
+function registrar_sidebar(){
+	register_sidebar(array(
+	 'name' => 'Sidebar Principal',
+	 'id' => 'sidebar-principal',
+	 'description' => 'Descripción principal',
+	 'class' => 'sidebar',
+	 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	 'after_widget' => '</aside>',
+	 'before_title' => '<h2 class="widget-title">',
+	 'after_title' => '</h2>',
+	));
+  }
+  add_action( 'widgets_init', 'registrar_sidebar');
+
+  function wpse_custom_meta_description(){
+    if ( ! is_single() && ! is_page())
+        return;
+    $desc = get_post_meta( get_queried_object_id(), 'descripcion', true );
+    if( ! empty( $desc ) )
+        printf( 
+            '<meta name="description" content="%s" />',
+            esc_attr( trim( $desc ) )
+        );
+}
+add_action( 'wp_head', 'wpse_custom_meta_description' , 2 );
+
+
 ?>
 
 
