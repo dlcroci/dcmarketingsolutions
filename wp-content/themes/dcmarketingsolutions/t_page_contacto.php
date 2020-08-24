@@ -35,7 +35,7 @@ get_header();
                                     </label>
                                     
                                     <label>Mensaje: <span>*</span>
-                                        <textarea name="mensaje" id="mensaje" class="campo-form" required></textarea>
+                                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje" class="campo-form" required></textarea>
                                     </label>
                                     <input type="hidden" name="action" value="process_form">
                                     <input type="submit" name="submit" value="Enviar" class="btn-form">
@@ -60,7 +60,6 @@ get_header();
                 </div>   
             </div>
         </section>
-        <!-- <?php get_sidebar('principal'); ?> -->
     </main>
 
    
