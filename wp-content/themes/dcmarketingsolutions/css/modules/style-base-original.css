@@ -306,7 +306,7 @@ p {
 header {
     padding: 2.5% 4%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
     align-items: center;
 }
 
