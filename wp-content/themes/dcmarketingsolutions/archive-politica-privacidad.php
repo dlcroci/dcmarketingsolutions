@@ -3,7 +3,7 @@
 get_header(); ?>
 
 <main id="id_main>
-    <section class=" container"="" style="opacity: 1;">
+    <section class="containerY" style="opacity: 1;">
         <div class="section-container">
             <div class="container1" id="id_container">
                 <div class="container-texto-politica-privacidad containerX container--narrow page-section">

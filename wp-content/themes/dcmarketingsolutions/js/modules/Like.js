@@ -23,9 +23,9 @@ class Like {
   createLike(currentLikeBox) {
     $.ajax({
       beforeSend: xhr => {
-        xhr.setRequestHeader("X-WP-Nonce", universityData.nonce)
+        xhr.setRequestHeader("X-WP-Nonce", dcmsData.nonce)
       },
-      url: universityData.root_url + "/wp-json/university/v1/manageLike",
+      url: dcmsData.root_url + "/wp-json/university/v1/manageLike",
       type: "POST",
       data: { "professorId": currentLikeBox.data("professor") },
       success: response => {
@@ -45,9 +45,9 @@ class Like {
   deleteLike(currentLikeBox) {
     $.ajax({
       beforeSend: xhr => {
-        xhr.setRequestHeader("X-WP-Nonce", universityData.nonce)
+        xhr.setRequestHeader("X-WP-Nonce", dcmsData.nonce)
       },
-      url: universityData.root_url + "/wp-json/university/v1/manageLike",
+      url: dcmsData.root_url + "/wp-json/university/v1/manageLike",
       data: { "like": currentLikeBox.attr("data-like") },
       type: "DELETE",
       success: response => {

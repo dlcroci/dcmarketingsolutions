@@ -1,17 +1,19 @@
-.grid-container-header {
+.grid-container-nav {
   display: grid;
-  grid-template-areas: 'blanco lupa';
+  grid-template-areas: 'navigator lupa';
   grid-template-rows: auto;
-  grid-template-columns: 95% 5%;
-  margin: 1% 0%;
+  grid-template-columns: 90% 10%;
+  margin: 0% 5%;
 }
 
-.blanco {
-  grid-area: blanco;
+.navigator {
+  grid-area: navigator;
+  margin: 0px 0px 0px 80px;
 }
 
 .lupa {
- grid-area: lupa;
+  grid-area: lupa;
+  margin: 0px 40px;
 }
 
 .site-header {

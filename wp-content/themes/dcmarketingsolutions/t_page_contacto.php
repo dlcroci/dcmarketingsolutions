@@ -9,7 +9,7 @@ get_header();
 ?>
 
 <main id="holder id_main">
-        <section class="container">
+        <section class="containerY">
             <div class="section-container">
                 <div class="container1" id="id_container">
                     <div class="main-formulario">

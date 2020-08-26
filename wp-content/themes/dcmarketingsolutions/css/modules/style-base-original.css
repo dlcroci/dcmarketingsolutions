@@ -55,7 +55,7 @@ h4 {
     color:  #e86000;
 }
 
-.container {
+.container1 {
     margin: 1%;
 }
 
@@ -104,7 +104,7 @@ p {
     display: grid;
     grid-template-areas: 'header menu';
     grid-template-rows: auto;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
     margin: 1% 0%;
  }
 
@@ -306,7 +306,7 @@ p {
 header {
     padding: 2.5% 4%;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -315,7 +315,7 @@ header {
 }
 
 nav {
-    margin: 0px;
+    margin: 0px 30px;
     display: flex;
     align-items: center;
 }
@@ -333,6 +333,7 @@ nav ul li {
     display: inline-block;
     list-style: none;
     margin: 2%;
+    padding: 0px 10px
 }
 
 .item {
@@ -836,7 +837,7 @@ textarea {
 
      .item_1 {
         grid-area: header;
-        justify-content: center;
+        
         align-items: center;
     }
     
@@ -866,9 +867,10 @@ textarea {
     }
 
     .container-photo-grupo {
-        max-width: 286px;
-        max-height: 206px;
-        display: block;
+        width: 400px;
+        height: 235px;
+        display: flex;
+        justify-content: center;
         margin: auto;
     }
 
@@ -890,7 +892,6 @@ textarea {
         '. copy .';
         grid-template-columns: 10% 80% 10%;
     }
-
     
      .container-footer-right {
          margin: auto;
@@ -929,6 +930,8 @@ textarea {
 
     .container-photo-grupo {
         margin-bottom: 10px;
+        width: 350px;
+        height: 232px;
     }
 
     .container-menu-footer {
@@ -985,7 +988,7 @@ textarea {
     }
 
     .container-photo {
-        width: 365px;
+        width: 300px;
         height: 582px;
         background-image: url(../img/Chica_Small.jpg);
     }
@@ -996,6 +999,11 @@ textarea {
         display: block;
     }
 
+    .container-photo-grupo {
+        width: 250px;
+        height: 165px;
+        
+    }
 }
 
 .containerX {
@@ -1016,4 +1024,11 @@ textarea {
     margin: 10px 0px 0px 10px;
 }
 
+@media (max-width: 350px) {
+        
+    .container-photo-grupo {
+        width: 220px;
+        height: 146px;
+    }
 
+}

@@ -4,7 +4,7 @@ get_header(); ?>
 
 <main id="id_main" style="opacity: 1;">
             
-    <section class="container">
+    <section class="containerY">
         <div class="section-container">
             <div class="container1" id="id_container">
                 

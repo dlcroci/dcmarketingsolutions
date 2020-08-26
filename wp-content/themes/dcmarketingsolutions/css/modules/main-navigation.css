@@ -18,7 +18,7 @@
 
   @mixin atMedium {
     float: left;
-    margin-right: 20px;
+    margin-right: 0px;
   }
 }
 
@@ -27,16 +27,16 @@
 
   @mixin atMedium {
     float: left;
-    padding-left: 20px;
+    padding-left: 5px;
   }
 }
 
 .main-navigation a {
   display: block;
   padding: 10px 20px;
-  color: #FFF;
+  color: #185ea6;
   text-decoration: none;
-  font-weight: 300;
+  
   @mixin atMedium {
     display: inline-block;
     padding: 0;
@@ -45,5 +45,5 @@
 
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: $beige;
+  color: #e86000
 }
