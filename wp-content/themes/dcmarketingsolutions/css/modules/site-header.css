@@ -1,21 +1,3 @@
-.grid-container-nav {
-  display: grid;
-  grid-template-areas: 'navigator lupa';
-  grid-template-rows: auto;
-  grid-template-columns: 90% 10%;
-  margin: 0% 5%;
-}
-
-.navigator {
-  grid-area: navigator;
-  margin: 0px 0px 0px 80px;
-}
-
-.lupa {
-  grid-area: lupa;
-  margin: 0px 40px;
-}
-
 .site-header {
   z-index: 3;
   position: absolute;
@@ -55,7 +37,7 @@
       visibility: visible;
     }
 
-    @mixin atMedium {
+    @mixin atLarge {
       visibility: visible;
       opacity: 1;
       transform: translateY(0) scale(1);
@@ -70,7 +52,7 @@
 
   &__search-trigger {
     cursor: pointer;
-    color: #FFF;
+    color:#185ea6; ;
     font-size: 1.2rem;
     position: absolute;
     top: 6px;
@@ -81,13 +63,25 @@
       font-size: 1.4rem;
     }
 
+    @mixin atSmallMedium {
+      top: 4px;
+      right: 30px;
+      font-size: 2.2rem;
+    }
+
     @mixin atMedium {
+      top: 9px;
+      right: 45px;
+      font-size: 2.8rem;
+    }
+
+    @mixin atLarge {
       display: none;
     }
   }
 
   &__menu-trigger {
-    color: #FFF;
+    color:#185ea6;
     cursor: pointer;
     font-size: 1.2rem;
     position: absolute;
@@ -100,7 +94,19 @@
       font-size: 1.4rem;
     }
 
+    @mixin atSmallMedium {
+      top: 5px;
+      right: 75px;
+      font-size: 2.2rem;
+    }
+
     @mixin atMedium {
+      top: 10px;
+      right: 125px;
+      font-size: 2.8rem;
+    }
+
+    @mixin atLarge {
       display: none;
     }
   }

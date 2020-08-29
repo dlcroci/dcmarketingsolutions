@@ -16,6 +16,12 @@
   }
 }
 
+@define-mixin atLarge {
+  @media (min-width: 1200px) {
+    @mixin-content;
+  }
+}
+
 body {
   color: #333;
   font-family: 'Rubik', sans-serif;

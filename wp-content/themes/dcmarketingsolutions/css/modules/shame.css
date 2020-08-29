@@ -89,19 +89,19 @@
 
 .search-trigger {
   display: none;
-  color: #FFF;
+  color:#185ea6; ;
   position: relative;
   cursor: pointer;
   top: 1px;
   margin-left: 20px;
-  @mixin atMedium {
+  @mixin atLarge {
     display: inline-block;
     top: 6px;
   }
 }
 
 .search-trigger:hover {
-  opacity: .65;
+  color:#e86000;
 }
 
 .social-icons-list {

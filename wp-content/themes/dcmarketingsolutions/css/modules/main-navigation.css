@@ -25,7 +25,7 @@
 .main-navigation li {
   list-style: none;
 
-  @mixin atMedium {
+  @mixin atLarge {
     float: left;
     padding-left: 5px;
   }
@@ -34,16 +34,17 @@
 .main-navigation a {
   display: block;
   padding: 10px 20px;
-  color: #185ea6;
+  color:white;
   text-decoration: none;
   
-  @mixin atMedium {
+  @mixin atLarge {
     display: inline-block;
     padding: 0;
+    color: #185ea6;
   }
 }
 
 .main-navigation .current-menu-item a,
 .main-navigation a:hover {
-  color: #e86000
+  color: #e86000;
 }
