@@ -19,6 +19,50 @@ get_header();
 
 <main id="id_main" style="opacity: 1;">            
     <section class="containerY">
+        <div class="hero-slider">
+            <div data-glide-el="track" class="glide__track">
+                <div class="glide__slides">
+                <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide5.jpg'); ?>);">
+                    <div class="hero-slider__interior container">
+                    <div class="hero-slider__overlay">
+                        <h2 class="headline headline--medium t-center">Diseño Web</h2>
+                        <p class="t-center" style="color: white">NodeJS, JavaScript, React, PHP &<br> Wordpress. Hecha a tu medida.</p>
+                        <p class="t-center no-margin"><a href=""<?php echo site_url('/nosotros') ?>"" class="btn btn--blue">Conoce más</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide6.jpg'); ?>);">
+                    <div class="hero-slider__interior container">
+                    <div class="hero-slider__overlay">
+                        <h2 class="headline headline--medium t-center">Social Media</h2>
+                        <p class="t-center" style="color: white">Community management. Creación<br> y promoción de contenidos digitales.</p>
+                        <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide7.jpg'); ?>);">
+                    <div class="hero-slider__interior container">
+                    <div class="hero-slider__overlay">
+                        <h2 class="headline headline--medium t-center">Ecommerce</h2>
+                        <p class="t-center" style="color: white">La experiencia para implementar soluciones<br>escalables y rentables.</p>
+                        <p class="t-center no-margin"><a href=""<?php echo site_url('/nosotros') ?>"" class="btn btn--blue">Conoce más</a></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide8.jpg'); ?>);">
+                    <div class="hero-slider__interior container">
+                    <div class="hero-slider__overlay">
+                        <h2 class="headline headline--medium t-center">Inbound Marketing</h2>
+                        <p class="t-center" style="color: white">Atrae y convence con contenido de <br>valor a tus clientes ideales.</p>
+                        <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                <div class="slider__bullets glide__bullets" data-glide-el="controls[nav]">
+                </div>
+            </div>
+        </div>
         <div class="section-container">
             <div class="container1" id="id_container">
                 <div id="id_servicios">
