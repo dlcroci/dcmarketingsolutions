@@ -16,7 +16,6 @@ get_header();
         </div>
     </div>  
 </div>
-
 <main id="id_main" style="opacity: 1;">         
   <section class="containerY">
     <div class="hero-slider">
