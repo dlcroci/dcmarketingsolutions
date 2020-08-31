@@ -141,7 +141,20 @@
                     </div>
                 </div>
             </section>
-        </main> 
+        </main>
+        <script type="application/ld+json">
+        {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "DC Marketing Solutions",
+        "url": "https://dcmarketingsolutions.net/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://dcmarketingsolutions.net/{search_term_string}",
+            "query-input": "required name=search_term_string"
+        }
+        }
+        </script> 
 
 <?php  get_footer();
 
