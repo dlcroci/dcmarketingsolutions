@@ -158,7 +158,7 @@ function add_custom_meta_keywords(){
 
 	#Homepage Meta Keywords
 	if( is_home() || is_front_page() || is_archive() ){
-		$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panama, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital panama, agencia, digital"; #Edit here
+		$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panamá, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital Panamá, agencia, digital"; #Edit here
 		echo '<meta name="keywords" content="' . $meta_keywords . '" />';
 	}
 	
