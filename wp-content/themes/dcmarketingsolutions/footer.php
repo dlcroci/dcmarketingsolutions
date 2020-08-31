@@ -11,13 +11,12 @@
                 </div>
                 <div class="item_25">
                 <ul class="container-menu-footer">
-                        <li><a <?php if (get_permalink() == 'http://dcmarketingsolutions/') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> id="menuInicioFooter" href="<?php echo site_url() ?>">INICIO</a></li>
-                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'http://dcmarketingsolutions/nosotros') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/nosotros') ?>">NOSOTROS</a></li>
-                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'http://dcmarketingsolutions/servicios') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/servicios') ?>">SERVICIOS</a></li>
-                        <!-- <li><a class="item1" href="novedades.html">NOVEDADES</a></li> -->
-                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'http://dcmarketingsolutions/blog') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/blog') ?>">BLOG</a></li>
-                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'http://dcmarketingsolutions/contacto') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/contacto') ?>">CONTÁCTANOS</a></li>
-                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'http://dcmarketingsolutions/politica-privacidad') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/politica-privacidad') ?>">POLÍTICAS DE PRIVACIDAD</a></li>
+                        <li><a <?php if (get_permalink() == 'https://dcmarketingsolutions/') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> id="menuInicioFooter" href="<?php echo site_url() ?>">INICIO</a></li>
+                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions/nosotros') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/nosotros') ?>">NOSOTROS</a></li>
+                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions/servicios') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/servicios') ?>">SERVICIOS</a></li>
+                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions/blog') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/blog') ?>">BLOG</a></li>
+                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions/contacto') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/contacto') ?>">CONTÁCTANOS</a></li>
+                        <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions/politica-privacidad') {echo 'class="activo item1"';} else {echo 'class="item1"';} ?> href="<?php echo site_url('/politica-privacidad') ?>">POLÍTICAS DE PRIVACIDAD</a></li>
                     </ul>
                 </div>
                 <div class="item_26 container-footer-right">
