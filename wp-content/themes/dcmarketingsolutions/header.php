@@ -40,12 +40,12 @@
                                 <div class="navigator">
                                     <nav class="main-navigation" style="color: #185ea6;">
                                         <ul class="">
-                                            <li><a <?php if (get_permalink() == 'https://dcmarketingsolutions.net/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuInicio" href="<?php echo site_url() ?>">INICIO</a></li>
-                                            <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions.net/nosotros/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuNosotros" href="<?php echo site_url('/nosotros') ?>">NOSOTROS</a></li>
-                                            <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions.net/servicios/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuServicios" href="<?php echo site_url('/servicios') ?>">SERVICIOS</a></li>
-                                            <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions.net/blog/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuBlog" href="<?php echo site_url('/blog') ?>">BLOG</a></li>
-                                            <li class="ocultar"><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions.net/politica-privacidad/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> href="<?php echo site_url('/politica-privacidad') ?>">POLÍTICA DE PRIVACIDAD</a></li>
-                                            <li><a <?php if (home_url( add_query_arg( array(), $wp->request ) ) == 'https://dcmarketingsolutions.net/contacto/') {echo 'class="item activo"';} else {echo 'class="item"';} ?> href="<?php echo site_url('/contacto') ?>">CONTÁCTANOS</a></li>
+                                            <li><a <?php if (is_page( 'Home' )) {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuInicio" href="<?php echo site_url() ?>">INICIO</a></li>
+                                            <li><a <?php if (is_page( 'Nosotros' )) {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuNosotros" href="<?php echo site_url('/nosotros') ?>">NOSOTROS</a></li>
+                                            <li><a <?php if (is_page( 'Servicios' )) {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuServicios" href="<?php echo site_url('/servicios') ?>">SERVICIOS</a></li>
+                                            <li><a <?php if (get_post_type() == 'post') {echo 'class="item activo"';} else {echo 'class="item"';} ?> id="menuBlog" href="<?php echo site_url('/blog') ?>">BLOG</a></li>
+                                            <li class="ocultar"><a <?php if (is_page( 'Política de Privacidad' )) {echo 'class="item activo"';} else {echo 'class="item"';} ?> href="<?php echo site_url('/politica-privacidad') ?>">POLÍTICA DE PRIVACIDAD</a></li>
+                                            <li><a <?php if (is_page( 'Contacto' )) {echo 'class="item activo"';} else {echo 'class="item"';} ?> href="<?php echo site_url('/contacto') ?>">CONTÁCTANOS</a></li>
                                         </ul>
                                     </nav>
                                 </div>
