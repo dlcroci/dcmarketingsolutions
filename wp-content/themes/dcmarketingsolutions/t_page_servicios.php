@@ -25,7 +25,7 @@ get_header();
                 <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide5.jpg'); ?>);">
                     <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Diseño Web</h2>
+                        <h2 class="h2h3 headline headline--medium t-center">Diseño Web</h2>
                         <p class="t-center" style="color: white">NodeJS, JavaScript, React, PHP &<br> Wordpress. Hecha a tu medida.</p>
                         <p class="t-center no-margin"><a href=""<?php echo site_url('/nosotros') ?>"" class="btn btn--blue">Conoce más</a></p>
                     </div>
@@ -34,7 +34,7 @@ get_header();
                 <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide6.jpg'); ?>);">
                     <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Social Media</h2>
+                        <h2 class="h2h3 headline headline--medium t-center">Social Media</h2>
                         <p class="t-center" style="color: white">Community management. Creación<br> y promoción de contenidos digitales.</p>
                         <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
                     </div>
@@ -43,7 +43,7 @@ get_header();
                 <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide7.jpg'); ?>);">
                     <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Ecommerce</h2>
+                        <h2 class="h2h3 headline headline--medium t-center">Ecommerce</h2>
                         <p class="t-center" style="color: white">La experiencia para implementar soluciones<br>escalables y rentables.</p>
                         <p class="t-center no-margin"><a href=""<?php echo site_url('/nosotros') ?>"" class="btn btn--blue">Conoce más</a></p>
                     </div>
@@ -52,7 +52,7 @@ get_header();
                 <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide8.jpg'); ?>);">
                     <div class="hero-slider__interior container">
                     <div class="hero-slider__overlay">
-                        <h2 class="headline headline--medium t-center">Inbound Marketing</h2>
+                        <h2 class="h2h3 headline headline--medium t-center">Inbound Marketing</h2>
                         <p class="t-center" style="color: white">Atrae y convence con contenido de <br>valor a tus clientes ideales.</p>
                         <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
                     </div>
@@ -66,7 +66,7 @@ get_header();
         <div class="section-container">
             <div class="container1" id="id_container">
                 <div id="id_servicios">
-                    <h2 id="id_7">Servicios</h2><div class="grid-container3" id="servicios">
+                    <h2 class="h2h3" id="id_7">Servicios</h2><div class="grid-container3" id="servicios">
                         <div class="item_4 proposal">
                             <h1 id="tenemos_una_estrategia" class="tenemos">CONTAMOS CON UNA SÓLIDA EXPERIENCIA EN MARKETING DIGITAL</h1>
                         </div>
@@ -76,7 +76,7 @@ get_header();
                         </div>
                         <div class="item_7 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h3 class="t2">Social Media</h3>
+                                <h3 class="h2h3 t2">Social Media</h3>
                             </a>
                             <p>Community management. Creación y promoción de contenidos digitales.</p>
                         </div>
@@ -85,7 +85,7 @@ get_header();
                         </div>
                         <div class="item_9 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h3 class="t2">Inbound Marketing</h3>
+                                <h3 class="h2h3 t2">Inbound Marketing</h3>
                             </a>
                             <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                         </div>
@@ -94,7 +94,7 @@ get_header();
                         </div>
                         <div class="item_11 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h3 class="t2">Diseño Web</h3>
+                                <h3 class="h2h3 t2">Diseño Web</h3>
                             </a>
                             <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                         </div>
@@ -103,7 +103,7 @@ get_header();
                         </div>
                         <div class="item_13 servicio-text">
                             <a style="text-decoration: none" href=" ">
-                                <h3 class="t2">Ecommerce</h3>
+                                <h3 class="h2h3 t2">Ecommerce</h3>
                             </a>
                             <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                         </div>
@@ -112,7 +112,7 @@ get_header();
                         <div class="item_14 linea_azul1"></div>
                         <div class="item_15">
                             <a style="text-decoration: none" href=" ">
-                                <h3 class="weWantHelpYou centrar">Queremos ayudarte</h3>
+                                <h3 class="h2h3 weWantHelpYou centrar">Queremos ayudarte</h3>
                             </a>
                         </div>
                         <div class="item_16 linea_azul2"></div>

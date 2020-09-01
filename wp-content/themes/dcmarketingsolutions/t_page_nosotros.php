@@ -24,7 +24,7 @@ get_header();
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide1.jpg'); ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Profesionalismo</h2>
+                <h2 class="h2h3 headline headline--medium t-center">Profesionalismo</h2>
                 <p class="t-center" style="color: white"> Más de 20 años de experiencia nos avalan.</p>
                 <p class="t-center no-margin"><a href=""<?php echo site_url('/servicios') ?>"" class="btn btn--blue">Conoce más</a></p>
               </div>
@@ -33,7 +33,7 @@ get_header();
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide2.jpg'); ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Pasión</h2>
+                <h2 class="h2h3 headline headline--medium t-center">Pasión</h2>
                 <p class="t-center" style="color: white">Queremos ayudarte a crecer.</p>
                 <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
               </div>
@@ -42,7 +42,7 @@ get_header();
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide3.jpg'); ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Dedicación</h2>
+                <h2 class="h2h3 headline headline--medium t-center">Dedicación</h2>
                 <p class="t-center" style="color: white">Nuestro objetivo es tu éxito.</p>
                 <p class="t-center no-margin"><a href=""<?php echo site_url('/servicios') ?>"" class="btn btn--blue">Conoce más</a></p>
               </div>
@@ -51,7 +51,7 @@ get_header();
           <div class="hero-slider__slide" style="background-image: url(<?php echo get_theme_file_uri('/img/slide4.jpg'); ?>);">
             <div class="hero-slider__interior container">
               <div class="hero-slider__overlay">
-                <h2 class="headline headline--medium t-center">Análisis</h2>
+                <h2 class="h2h3 headline headline--medium t-center">Análisis</h2>
                 <p class="t-center" style="color: white">Nuestro consejos estan basados <br>en un riguroso análisis.</p>
                 <p class="t-center no-margin"><a href=""<?php echo site_url('/blog') ?>"" class="btn btn--blue">Conoce más</a></p>
               </div>
@@ -65,7 +65,7 @@ get_header();
     <div class="section-container">
       <div class="container1" id="id_container">    
         <div id="id_nosotros"> 
-          <h2 id="id_6">Quienes Somos</h2>
+          <h2 class="h2h3" id="id_6">Quienes Somos</h2>
           <div class="grid-container6 conocenos" id="nosotros">
             <div class="item_22 container-photo-grupo">
               <div class="photo-grupo">
@@ -73,7 +73,7 @@ get_header();
             </div>
             <div class="item_23 container-texto-conocenos">
               <a style="text-decoration: none" href=" ">
-                <h3 class="meetUs">Conócenos</h3>
+                <h3 class="h2h3 meetUs">Conócenos</h3>
               </a>  
               <div style="text-align:left;">
                 <h1 style="display:inline;" class="clase_p">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>.</h1> Nos especializamos en:

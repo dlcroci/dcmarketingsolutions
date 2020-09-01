@@ -25,7 +25,7 @@
                                 </div>
                                 <div class="item_7 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="t2">Social Media</h3>
+                                        <h3 class="h2h3 t2">Social Media</h3>
                                     </a>
                                     <p>Community management. Creación y promoción de contenidos digitales.</p>
                                 </div>
@@ -34,7 +34,7 @@
                                 </div>
                                 <div class="item_9 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="t2">Inbound Marketing</h3>
+                                        <h3 class="h2h3 t2">Inbound Marketing</h3>
                                     </a>
                                     <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                                 </div>
@@ -43,7 +43,7 @@
                                 </div>
                                 <div class="item_11 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3>Diseño Web</h3>
+                                        <h3 class="h2h3">Diseño Web</h3>
                                     </a>
                                     <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                                 </div>
@@ -52,7 +52,7 @@
                                 </div>
                                 <div class="item_13 servicio-text">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="t2">Ecommerce</h3>
+                                        <h3 class="h2h3 t2">Ecommerce</h3>
                                     </a>
                                     <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                                 </div>
@@ -61,7 +61,7 @@
                                 <div class="item_14 linea_azul1"></div>
                                 <div class="item_15">
                                     <a style="text-decoration: none" href=" ">
-                                        <h2 class="weWantHelpYou centrar t2">Queremos ayudarte</h2>
+                                        <h2 class="h2h3 weWantHelpYou centrar t2">Queremos ayudarte</h2>
                                     </a>
                                 </div>
                                 <div class="item_16 linea_azul2"></div>
@@ -108,7 +108,7 @@
                                 <div class="item_18 linea_azul1"></div>
                                 <div class="item_19">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="centrar">Quienes Somos</h3>
+                                        <h3 class="h2h3 centrar">Quienes Somos</h3>
                                     </a>
                                 </div>
                                 <div class="item_20 linea_azul2"></div>
@@ -120,7 +120,7 @@
                                 </div>
                                 <div class="item_23 container-texto-conocenos">
                                     <a style="text-decoration: none" href=" ">
-                                        <h3 class="meetUs">Conócenos</h3>
+                                        <h3 class="h2h3 meetUs">Conócenos</h3>
                                     </a>
                                     <p style="text-align: justify;">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
                                     <ul class="font-bold-grey">

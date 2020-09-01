@@ -22,7 +22,7 @@ get_header();
         <div class="section-container">
             <div class="container1" id="id_container">
                 <div>
-                    <div class="containerX container--narrow page-section" style="padding: 0"
+                    <div class="containerX container--narrow page-section" style="padding: 0">
                         <a style="text-decoration: none" href=""><h1 style="color: #e86000; margin: auto; line-height: 60px; font-size: 40px; text-align: center;">Política de Privacidad</h1></a>
                         <p style="text-align: justify">Valoramos la privacidad y seguridad de la información que compartes con nosotros. Esta Política de Privacidad describe cómo recopilamos, usamos, compartimos, protegemos y procesamos tu información. Solo compartimos información para los fines establecidos en esta Política de Privacidad, y no venderemos ni redistribuiremos tu información a ningún tercero. Utilizamos esfuerzos comercialmente razonables para proteger tu información de la divulgación no autorizada.
                         Ciertas partes de nuestros sitios web pueden solicitarte que brindes información personal de forma voluntaria. Por ejemplo, podemos pedirte que proporciones cierta información personal (como tu nombre, datos de contacto, nombre de la empresa, información de perfil) para registrarte o enviarte consultas. También podemos recopilar información personal, como tu contacto y detalles de trabajo y comentarios, cuando asistas a nuestros eventos, participes en encuestas o mediante otras interacciones comerciales o de marketing que podamos tener contigo. Puedes optar por proporcionar información adicional cuando te comunicas con nosotros o interactúas con nosotros, y guardaremos copias de dichas comunicaciones para nuestros registros.
@@ -45,7 +45,7 @@ get_header();
                         </ul>
                         <p style="text-align: justify">Si tienes alguna pregunta o inquietud relacionada con esta Política de Privacidad, por favor contáctanos.</p>
                         <br>
-                        <h2 class="clase_p" style="font-weight: bold">DC Marketing Solutions: Especialistas en Marketing Digital - Barcelona, Panamá y Buenos Aires</h2>
+                        <h2 class="h2h3 clase_p" style="font-weight: bold">DC Marketing Solutions: Especialistas en Marketing Digital - Barcelona, Panamá y Buenos Aires</h2>
                         <br>
                     </div>	
                 </div>

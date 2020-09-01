@@ -38,7 +38,7 @@ h1:hover {
     color: #e86000;
 }
 
-h2, h3 {
+.h2h3 {
     font-size: 30px;
     padding: 0px;
     margin: 2px 0px 0px 0px;
@@ -836,7 +836,7 @@ textarea {
         font-size: 20px;
     }
 
-    h2, h3 {
+    h2h3 {
         font-size: 20px;
     }
     
