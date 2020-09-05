@@ -18,13 +18,13 @@
             <div class="container">
                 <div class="grid-container1">
                     <div class="item_1">
-                        <a href="<?php echo site_url() ?>" style="width: 0">
+                        <a href="<?php echo site_url() ?>">
                             <picture>
                             <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--large.png 500w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--large-hi-dpi.png 1000w')?>" media="(min-width: 1380px)">
-                            <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.png 360w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.png 720w')?>" media="(min-width: 990px)">
-                            <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.png 720w')?>" media="(max-width: 1025px) and(min-width: 1023px)">
-                            <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--small.png 259w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--small-hi-dpi.png 519w')?>" media="(min-width: 640px)">
-                            <img srcset="<?php echo get_theme_file_uri('/img/Logo_Header--smaller.png 300w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--smaller-hi-dpi.png 400w')?>" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
+                                <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium.png 360w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.png 720w')?>" media="(min-width: 990px)">
+                                <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--medium-hi-dpi.png 720w')?>" media="(max-width: 1025px) and(min-width: 1023px)">
+                                <source srcset="<?php echo get_theme_file_uri('/img/Logo_Header--small.png 259w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--small-hi-dpi.png 519w')?>" media="(min-width: 640px)">
+                                <img style="display:block;" srcset="<?php echo get_theme_file_uri('/img/Logo_Header--smaller.png 300w')?>, <?php echo get_theme_file_uri('/img/Logo_Header--smaller-hi-dpi.png 400w')?>" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_dc">
                             </picture>
                         </a>
 

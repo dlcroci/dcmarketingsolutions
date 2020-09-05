@@ -66,7 +66,8 @@ get_header();
         <div class="section-container">
             <div class="container1" id="id_container">
                 <div id="id_servicios">
-                    <h2 class="h2h3" id="id_7">Servicios</h2><div class="grid-container3" id="servicios">
+                    <h2 class="h2h3" id="id_7">Servicios</h2>
+                    <div class="grid-container3" id="servicios">
                         <div class="item_4 proposal">
                             <h1 id="tenemos_una_estrategia" class="tenemos">CONTAMOS CON UNA SÓLIDA EXPERIENCIA EN MARKETING DIGITAL</h1>
                         </div>
@@ -108,7 +109,7 @@ get_header();
                             <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                         </div>
                     </div>
-                    <div class="grid-container4 <!--container-quienes-somos-->" id="id_queremos_ayudarte">
+                    <div class="grid-container4" id="id_queremos_ayudarte">
                         <div class="item_14 linea_azul1"></div>
                         <div class="item_15">
                             <a style="text-decoration: none" href=" ">

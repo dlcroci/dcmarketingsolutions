@@ -5,6 +5,17 @@
   left: 0;
   right: 0;
   padding: 20px 0;
+  transition: background-color 2s ease-out;
+
+  @mixin atLarge {
+    position: fixed;
+    padding: 0;
+    background-color: rgba($mainBlue, .10);
+
+    &--dark {
+      background-color: rgba(228, 139, 34, .85);
+    }
+  }
 
   &__avatar {
     position: absolute;

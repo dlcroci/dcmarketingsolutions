@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <main id="id_main">
+        <main id= "id_main">
             <section class="grid-container2" id="id_photoMuchacha">
                 <div class="item_3">
                 <picture>
@@ -102,7 +102,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="id_nosotros">
+                        <div  class="ffff" id="id_nosotros">
                             <div class="grid-container5" id="id_nosotros1">
                                 <!-- <div class="container-quienes-somos" id="id_nosotros1"> -->
                                 <div class="item_18 linea_azul1"></div>
