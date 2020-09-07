@@ -23,8 +23,8 @@
   h6 {font-size: 1.15rem}
 
   @mixin atSmall {
-    h1 {font-size: 5.25rem}
-    h2 {font-size: 4rem}
+    h1 {font-size: 4.5rem}
+    h2 {font-size: 3.5rem}
     h3 {font-size: 3.125rem}
     h4 {font-size: 1.8rem}
     h5 {font-size: 1.4rem}
