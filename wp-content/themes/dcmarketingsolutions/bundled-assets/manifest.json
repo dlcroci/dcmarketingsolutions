@@ -1,10 +1,5 @@
 {
-<<<<<<< HEAD
-  "scripts.css": "styles.d1868a19cda74ff419ab.css",
-  "scripts.js": "scripts.d1868a19cda74ff419ab.js",
-=======
-  "scripts.css": "styles.3fe11e7dee7ce693f3f5.css",
-  "scripts.js": "scripts.3fe11e7dee7ce693f3f5.js",
->>>>>>> 4ef44748cc6951106750db5e215d89c34ed1b1ff
+  "scripts.css": "styles.534fdf1963159b98db9e.css",
+  "scripts.js": "scripts.534fdf1963159b98db9e.js",
   "vendors~scripts.js": "vendors~scripts.a5cdd878747885b89697.js"
 }
