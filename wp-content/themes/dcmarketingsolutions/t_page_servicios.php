@@ -119,7 +119,7 @@ get_header();
                         <div class="item_16 linea_azul2"></div>
                         <div class="item_17 queremos-ayudarte-texto containerX container--narrow page-section" id="id_5">
                             <br>
-                            <p style="text-align: justify;">
+                            <p class="alinear">
                             El marketing digital consiste en una serie de estrategias destinadas a promocionar marcas en Internet. Se diferencia del marketing tradicional en que incluye el uso de canales y métodos que pueden analizar los resultados en tiempo real. El marketing digital se utiliza para llevar productos o servicios a clientes potenciales a través de medios digitales. Algunas de las ventajas del marketing digital (frente al marketing tradicional) son:
                             </p>
                             <p>
@@ -129,16 +129,16 @@ get_header();
                                     <li>Inmediatez y precisión de los objetivos</li>
                                 </ul>
                             </p>
-                            <p style="text-align: justify;">
+                            <p class="alinear">
                             El marketing digital es la aplicación de estrategias de marketing ejecutadas en medios digitales. Todas las tecnologías del mundo fuera de línea se imitan y se transforman en un mundo nuevo, el mundo en línea. En el ámbito digital, han surgido nuevas herramientas, como la inmediatez, nuevas redes sociales o comunitarias que surgen todos los días y la posibilidad de medir cada estrategia utilizada.
                             </p>
-                            <p style="text-align: justify;">
+                            <p class="alinear">
                             Con la Web 2.0, las redes sociales y las nuevas tecnologías de información, permiten que las personas compartan información y que puedan intercambiar casi al instante formatos que antes parecian imposibles, como videos, gráficos, etc. Internet no solo se utiliza como un medio de búsqueda de información, sino también como una comunidad, donde hay relaciones y retroalimentación constantes con usuarios de todo el mundo. En este nuevo ámbito se desarrolla la segunda instancia del marketing digital ya que los usuarios pueden hablar de la marca libremente. Ellos tienen un poder importantísimo que antes sólo se le permitía a los medios. Entonces, la tecnología de marketing debe cambiar su paradigma. Si los editores, los medios de comunicación y los productores eran los que antes tenían los conocimientos, ahora el enfoque debe cambiar a los usuarios. Con la ayuda de las potentes funciones de los motores de búsqueda (Google, Yahoo, Bing, etc.), puede buscar el contenido que desea, no solo para preguntar si la decisión de un determinado medio es correcta, sino también para leer reseñas, comentarios y otras valoraciones de los usuarios.
                             </p>
-                            <p style="text-align: justify;">
+                            <p class="alinear">
                             Es por esto que las estrategias digitales deben incluir todos los espacios relevantes para la interacción con el target, buscando influir en las opiniones y los formadores de opinión, mejorando los resultados de los buscadores y analizando la información que brindan estos medios para optimizar los efectos de las acciones realizadas. El marketing digital es una colección de diseño, creatividad, rentabilidad y análisis que siempre busca el ROI.
                             </p>
-                            <p style="text-align: justify;">
+                            <p class="alinear">
                             Nosotros te ofrecemos ayudarte y acompañarte para que puedas aplicar todo estas herramientas a tu negocio: <Strong style="color: DarkBlue;">Desarrollo de Páginas Web, <a href="https://dcmarketingsolutions.net/2020/08/02/seo-search-engine-optimization/">SEO</a>, Inbound Marketing, Social Media Marketing y Ecommerce</Strong>. Solo llámanos o escríbenos para concretar una cita y te contaremos las características de nuestras herramientas de <strong style="color: DarkBlue;">Planeación Estratégica</strong> y de <strong style="color: DarkBlue;">Marketing Digital</strong>.
                             <br><br id="id_6">Llámanos / Escríbenos al: +54 911 2831 0850 (Buenos Aires), +507 6085 5475 (Panamá), +34 640 87 8511 (Barcelona).
                             </p>

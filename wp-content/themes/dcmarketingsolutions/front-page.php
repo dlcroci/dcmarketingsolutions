@@ -1,5 +1,15 @@
 <?php get_header(); ?>
 
+        <div style="padding: 80px 0 25px 0;" class="ocultarBanner page-banner">
+            <div class="page-banner__bg-image" style="opacity: 1; background-image: url(<?php echo get_theme_file_uri('/img/poster.jpg') ?>);"> 
+            </div>
+            <div class="page-banner__content container container--narrow">
+                <h1 class="page-banner__title"></h1>
+                <div class="page-banner__intro">
+                    <p style="color: white;"></p>
+                </div>
+            </div>  
+        </div>
         <main id= "id_main">
             <section class="grid-container2" id="id_photoMuchacha">
                 <div class="item_3">
@@ -67,7 +77,7 @@
                                 <div class="item_16 linea_azul2"></div>
                                 <div class="item_17 queremos-ayudarte-texto containerX container--narrow page-section" id="id_5">
                                     <br>
-                                    <p style="text-align: justify;"> Tal vez seas el responsable de un negocio y el mismo no está alcanzando los resultados que deseas, ya sea por
+                                    <p class="alinear"> Tal vez seas el responsable de un negocio y el mismo no está alcanzando los resultados que deseas, ya sea por
                                     <strong>falta de crecimiento</strong>, por
                                     <strong>falta de rentabilidad</strong> o por ambas causas. O tal vez tu negocio sea exitoso, pero tu intuición te
                                     indica que tiene potencial para mucho más.
@@ -122,7 +132,7 @@
                                     <a style="text-decoration: none" href=" ">
                                         <h3 class="h2h3 meetUs">Conócenos</h3>
                                     </a>
-                                    <p style="text-align: justify;">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
+                                    <p class="alinear">Contamos con profesionales que acreditan <strong>más de 20 años de experiencia en el área de Marketing</strong>. Nos especializamos en:</p>
                                     <ul class="font-bold-grey">
                                         <li>Social Media Marketing</li>
                                         <li>Diseño de páginas web</li>
@@ -130,7 +140,7 @@
                                         <li>Ecommerce</li>
                                         <li>Planes de Marketing 4.0</li>
                                     </ul>
-                                    <p style="text-align: justify;">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
+                                    <p class="alinear">Ofrecemos asesoramiento profesional en el desarrollo y en la implementación de Proyectos y Negocios, desde la gestación de la idea, la evaluación de riesgos hasta su implementación y puesta en marcha. Brindamos management y la
                                         gestión necesaria para mejorar, posibilitando una administración eficiente de los recursos. Detectamos oportunidades de negocios, basadas en análisis de información estadística y estudios especiales. Participamos de las decisiones
                                         de negocios que toman nuestros clientes, y acompañamos su crecimiento.</p>
                                     <br class="altura">

@@ -1056,3 +1056,18 @@ textarea {
         padding-top: 40px;;
     }
 }
+
+@media (min-width: 1025px) {
+    .ocultarBanner {
+        display: none !important;
+    }
+}
+
+.alinear {
+    text-align: left;
+}
+@media (min-width: 1025px) {
+    .alinear {
+        text-align: justify !important;
+    }
+}

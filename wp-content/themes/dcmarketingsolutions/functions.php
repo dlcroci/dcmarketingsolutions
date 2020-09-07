@@ -52,9 +52,9 @@ function dcms_files() {
   if (strstr($_SERVER['SERVER_NAME'], 'localhost/dcmarketingsolutions')) {
     wp_enqueue_script('main-dcms-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
   } else {
-    wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.bb9c88b2fc5ede35bf37.js'), NULL, '1.0', true);
-    wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.514eb831d56926ed2a0f.js'), NULL, '1.0', true);
-    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.514eb831d56926ed2a0f.css'));
+    wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.a5cdd878747885b89697.js'), NULL, '1.0', true);
+    wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.7bb446f4431b7752e382.js'), NULL, '1.0', true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.7bb446f4431b7752e382.css'));
   }
 
   wp_localize_script('main-dcms-js', 'dcmsData', array(
@@ -261,7 +261,7 @@ function shortcode_suma() {
 	  
 	  function ourLoginCSS() {
 		wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
-		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.514eb831d56926ed2a0f.css'));
+		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.7bb446f4431b7752e382.css'));
 	  }
 	  
 	  add_filter('login_headertitle', 'ourLoginTitle');
