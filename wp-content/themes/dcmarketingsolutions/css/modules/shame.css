@@ -161,7 +161,7 @@
 
 @mixin atMedium {
   .row {
-    margin-right: -50px;
+    margin-right: -10px;
   }
 
   .one-half,
