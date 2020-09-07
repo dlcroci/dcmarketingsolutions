@@ -53,8 +53,13 @@ function dcms_files() {
     wp_enqueue_script('main-dcms-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
   } else {
     wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.a5cdd878747885b89697.js'), NULL, '1.0', true);
+<<<<<<< HEAD
     wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.d1868a19cda74ff419ab.js'), NULL, '1.0', true);
     wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.d1868a19cda74ff419ab.css'));
+=======
+    wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.3fe11e7dee7ce693f3f5.js'), NULL, '1.0', true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.3fe11e7dee7ce693f3f5.css'));
+>>>>>>> 4ef44748cc6951106750db5e215d89c34ed1b1ff
   }
 
   wp_localize_script('main-dcms-js', 'dcmsData', array(
@@ -261,7 +266,11 @@ function shortcode_suma() {
 	  
 	  function ourLoginCSS() {
 		wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
+<<<<<<< HEAD
 		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.d1868a19cda74ff419ab.css'));
+=======
+		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.3fe11e7dee7ce693f3f5.css'));
+>>>>>>> 4ef44748cc6951106750db5e215d89c34ed1b1ff
 	  }
 	  
 	  add_filter('login_headertitle', 'ourLoginTitle');
