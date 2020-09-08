@@ -105,7 +105,7 @@
                                     para su target de clientes, no en imitar y alcanzar a sus competidores.<a
                                         href="https://dcmarketingsolutions.net/2020/07/27/cual-es-la-mejor-estrategia-para-tu-negocio/"><b>Ver artículo</b></a>
                                     <br><br>Nosotros te ofrecemos <strong>nuestros 20 años de experiencia en el área de
-                                        negocios </strong> y las ganas de trabajar junto a vos en la definición de una estrategia de negocio que sea
+                                        negocios </strong> y las ganas de trabajar junto a ti en la definición de una estrategia de negocio que sea
                                     exitosa, adaptada a tus necesidades y que genere una performance superior a la de tus competidores. Solo llámanos
                                     para concretar una cita y te contaremos las características de nuestras herramientas de <strong>Planeación Estratégica</strong> y de <strong>Marketing Digital</strong>.
                                     <br> <br id="id_6">Llámanos / Escríbenos al: +54 911 2831 0850 (Buenos Aires), +507 6085 5475 (Panamá), +34 640 87 8511 (Barcelona).</p><br>
