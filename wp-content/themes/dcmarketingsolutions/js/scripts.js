@@ -1,6 +1,7 @@
 import "../css/style.css"
 
 // Our modules / classes
+import "lazysizes"
 import MobileMenu from "./modules/MobileMenu"
 import HeroSlider from "./modules/HeroSlider"
 import Search from "./modules/Search"

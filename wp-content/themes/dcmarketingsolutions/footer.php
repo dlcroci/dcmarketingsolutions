@@ -3,9 +3,9 @@
                 <div class="item_24">
                     <a href="<?php echo site_url() ?>">
                         <picture>
-                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large-hi-dpi.jpg 604w')?>" media="(min-width: 1380px)">    
-                        <source srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large.jpg 302w')?>" media="(min-width: 1200px)">
-                        <img srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--medium.jpg 218w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--medium-hi-dpi.jpg 435w')?>" media="(min-width: 640px)" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_footer">
+                        <source data-srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large-hi-dpi.jpg 604w')?>" media="(min-width: 1380px)">    
+                        <source data-srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--large.jpg 302w')?>" media="(min-width: 1200px)">
+                        <img data-srcset="<?php echo get_theme_file_uri('/img/Logo_Footer--medium.jpg 218w')?>, <?php echo get_theme_file_uri('/img/Logo_Footer--medium-hi-dpi.jpg 435w')?>" media="(min-width: 640px)" alt="DC Marketing Solutions Logo - Agencia de Marketing Digital" class="logo_footer lazyload">
                         </picture>
                     </a>
                 </div>
@@ -20,10 +20,10 @@
                     </ul>
                 </div>
                 <div class="item_26 container-footer-right">
-                    <a class="item2" href="https://www.facebook.com/dcmarketingsolutions.net" target="_blank"><img src="<?php echo get_theme_file_uri('img/facebook.svg')?>;" alt="Logo Facebook"></a>
+                    <a class="item2" href="https://www.facebook.com/dcmarketingsolutions.net" target="_blank"><img class="lazyload" data-src="<?php echo get_theme_file_uri('img/facebook.svg')?>;" alt="Logo Facebook"></a>
                     <!-- <a class="item2" href="https://www.twitter.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/twitter.svg')?>;" alt="Logo Twitter"></a>
                     <a class="item2" href="https://www.youtube.com/" target="_blank"><img src="<?php echo get_theme_file_uri('img/youtube.svg')?>;" alt="Logo Youtube"></a> -->
-                    <a class="item2" href="https://www.instagram.com/dcmarketingsolutions" target="_blank"><img src="<?php echo get_theme_file_uri('img/instagram.svg')?>;" alt="Logo Instagram"></a>
+                    <a class="item2" href="https://www.instagram.com/dcmarketingsolutions" target="_blank"><img class="lazyload" data-src="<?php echo get_theme_file_uri('img/instagram.svg')?>;" alt="Logo Instagram"></a>
                 </div>
                 <div class="item_27 copy">
                     <p style="color: white">Copyright 2019 © DC MARKETING SOLUTIONS</p>
