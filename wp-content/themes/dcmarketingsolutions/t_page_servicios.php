@@ -79,7 +79,7 @@ get_header();
                             <a style="text-decoration: none" href=" ">
                                 <h3 class="h2h3 t2">Social Media</h3>
                             </a>
-                            <p>Community management. Creación y promoción de contenidos digitales.</p>
+                            <p style="margin: 0; line-height: 1.2;">Community management. Creación y promoción de contenidos digitales.</p>
                         </div>
                         <div class="item_8 ">
                             <div class="publicidad-online-logo"></div>
@@ -88,7 +88,7 @@ get_header();
                             <a style="text-decoration: none" href=" ">
                                 <h3 class="h2h3 t2">Inbound Marketing</h3>
                             </a>
-                            <p>Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
+                            <p style="margin: 0; line-height: 1.2;">Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
                         </div>
                         <div class="item_10">
                             <div class="diseño-web-logo"></div>
@@ -97,7 +97,7 @@ get_header();
                             <a style="text-decoration: none" href=" ">
                                 <h3 class="h2h3 t2">Diseño Web</h3>
                             </a>
-                            <p>Diseño y desarrollo de sitios web institucionales y comerciales.</p>
+                            <p style="margin: 0; line-height: 1.2;">Diseño y desarrollo de sitios web institucionales y comerciales.</p>
                         </div>
                         <div class="item_12 ">
                             <div class="ecommerce-logo"></div>
@@ -106,7 +106,7 @@ get_header();
                             <a style="text-decoration: none" href=" ">
                                 <h3 class="h2h3 t2">Ecommerce</h3>
                             </a>
-                            <p>La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
+                            <p style="margin: 0; line-height: 1.2;">La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
                         </div>
                     </div>
                     <div class="grid-container4" id="id_queremos_ayudarte">
