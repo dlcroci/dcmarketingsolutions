@@ -166,6 +166,10 @@ function add_custom_meta_keywords(){
 			$meta_keywords = esc_html($keywords);
 			echo '<meta name="keywords" content="' . $meta_keywords . '" />';
 		}
+		else { 
+			$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panamá, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital Panamá, agencia, digital"; #Edit here
+		echo '<meta name="keywords" content="' . $meta_keywords . '" />';
+		}
 	}
 }
 add_action( 'wp_head', 'add_custom_meta_keywords', 4 );
