@@ -14,7 +14,7 @@
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>
-        <header class="site-header">       
+        <header class="site-header" style="max-width:1366px !important">       
             <div class="container">
                 <div class="grid-container1">
                     <div class="item_1">
