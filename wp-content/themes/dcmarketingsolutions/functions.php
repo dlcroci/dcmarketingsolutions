@@ -145,6 +145,10 @@ function add_custom_meta_des(){
 			$meta_des = esc_html($des);
 			echo '<meta name="description" content="' . $meta_des . '" />';
 		}
+		else {
+			$meta_des = "DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."; #Edit here
+			echo '<meta name="description" content="' . $meta_des . '" />';
+		}
 	}
 }
 add_action( 'wp_head', 'add_custom_meta_des', 4 );
