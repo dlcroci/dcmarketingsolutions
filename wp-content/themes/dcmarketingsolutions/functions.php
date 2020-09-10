@@ -133,7 +133,7 @@ add_action( 'widgets_init', 'registrar_sidebar');
 function add_custom_meta_des(){
 
 	#Homepage Meta Description
-	if( is_home() || is_front_page() || is_archive() || is_page_template() ){
+	if( is_home() || is_front_page() || is_archive() ){
 		$meta_des = "DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."; #Edit here
 		echo '<meta name="description" content="' . $meta_des . '" />';
 	}
@@ -154,7 +154,7 @@ add_action( 'wp_head', 'add_custom_meta_des', 4 );
 function add_custom_meta_keywords(){
 
 	#Homepage Meta Keywords
-	if( is_home() || is_front_page() || is_archive() || is_page_template() ){
+	if( is_home() || is_front_page() || is_archive() ){
 		$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panamá, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital Panamá, agencia, digital"; #Edit here
 		echo '<meta name="keywords" content="' . $meta_keywords . '" />';
 	}
