@@ -52,9 +52,9 @@ function dcms_files() {
   if (strstr($_SERVER['SERVER_NAME'], 'localhost/dcmarketingsolutions')) {
     wp_enqueue_script('main-dcms-js', 'http://localhost:3000/bundled.js', NULL, '1.0', true);
   } else {
-    wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.564f53e7b0fa3697e9be.js'), NULL, '1.0', true);
-    wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.b64664bb0bdfb238d45c.js'), NULL, '1.0', true);
-    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.b64664bb0bdfb238d45c.css'));
+    wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.697ed90fd66784ef9605.js'), NULL, '1.0', true);
+    wp_enqueue_script('main-dcms-js', get_theme_file_uri('/bundled-assets/scripts.e673efb7f1812781fdce.js'), NULL, '1.0', true);
+    wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.e673efb7f1812781fdce.css'));
   }
 
   wp_localize_script('main-dcms-js', 'dcmsData', array(
@@ -133,7 +133,7 @@ add_action( 'widgets_init', 'registrar_sidebar');
 function add_custom_meta_des(){
 
 	#Homepage Meta Description
-	if( is_home() || is_front_page() || is_archive() ){
+	if( is_home() || is_front_page() || is_archive() || is_page_template() ){
 		$meta_des = "DC Marketing Solutions es una agencia especializada en Marketing Digital, Social Media Marketing, Inbound Marketing, SEO, Ecommerce y Diseño de Páginas Web."; #Edit here
 		echo '<meta name="description" content="' . $meta_des . '" />';
 	}
@@ -154,7 +154,7 @@ add_action( 'wp_head', 'add_custom_meta_des', 4 );
 function add_custom_meta_keywords(){
 
 	#Homepage Meta Keywords
-	if( is_home() || is_front_page() || is_archive() ){
+	if( is_home() || is_front_page() || is_archive() || is_page_template() ){
 		$meta_keywords = "marketing, marketing digital, SEO, inbound marketing, social media marketing, community manager, ecommerce, diseño de páginas web, Panamá, Buenos Aires, Barcelona, Argentina, España, Cataluña, agencia digital Panamá, agencia, digital"; #Edit here
 		echo '<meta name="keywords" content="' . $meta_keywords . '" />';
 	}
@@ -261,7 +261,7 @@ function shortcode_suma() {
 	  
 	  function ourLoginCSS() {
 		wp_enqueue_style('custom-google-fonts', '//fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,300,400,400i,700,700i');
-		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.b64664bb0bdfb238d45c.css'));
+		wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.e673efb7f1812781fdce.css'));
 	  }
 	  
 	  add_filter('login_headertitle', 'ourLoginTitle');
