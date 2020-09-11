@@ -9,6 +9,8 @@
 
   @mixin atLarge {
     position: fixed;
+    max-width: 1366px;
+    margin: auto;
     padding: 0;
     background-color: rgba($mainBlue, .10);
 
