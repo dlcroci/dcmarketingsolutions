@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-        <div style="padding: 80px 0 25px 0;" class="ocultarBanner page-banner">
+        <div class="ocultarBanner page-banner">
             <div class="page-banner__bg-image" style="opacity: 1; background-image: url(<?php echo get_theme_file_uri('/img/poster.jpg') ?>);"> 
             </div>
             <div class="page-banner__content container container--narrow">
