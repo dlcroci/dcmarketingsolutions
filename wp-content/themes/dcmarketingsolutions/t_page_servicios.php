@@ -76,7 +76,7 @@ get_header();
                             <div class="social-media-logo"></div>
                         </div>
                         <div class="item_7 servicio-text">
-                            <a style="text-decoration: none" href=" ">
+                            <a style="text-decoration: none" href="https://dcmarketingsolutions.net/2020/08/11/marketing-digital/">
                                 <h3 class="h2h3 t2">Social Media</h3>
                             </a>
                             <p style="margin: 0; line-height: 1.2;">Community management. Creación y promoción de contenidos digitales.</p>
@@ -85,7 +85,7 @@ get_header();
                             <div class="publicidad-online-logo"></div>
                         </div>
                         <div class="item_9 servicio-text">
-                            <a style="text-decoration: none" href=" ">
+                            <a style="text-decoration: none" href="https://dcmarketingsolutions.net/2020/08/07/inbound-marketing/">
                                 <h3 class="h2h3 t2">Inbound Marketing</h3>
                             </a>
                             <p style="margin: 0; line-height: 1.2;">Atrae y convence con contenido de valor a tus clientes ideales. Especialistas en SEO y SEM.</p>
@@ -94,7 +94,7 @@ get_header();
                             <div class="diseño-web-logo"></div>
                         </div>
                         <div class="item_11 servicio-text">
-                            <a style="text-decoration: none" href=" ">
+                            <a style="text-decoration: none" href="https://dcmarketingsolutions.net/2020/09/10/sitio-web-en-wordpress-o-html-estatico/">
                                 <h3 class="h2h3 t2">Diseño Web</h3>
                             </a>
                             <p style="margin: 0; line-height: 1.2;">Diseño y desarrollo de sitios web institucionales y comerciales.</p>
@@ -103,7 +103,7 @@ get_header();
                             <div class="ecommerce-logo"></div>
                         </div>
                         <div class="item_13 servicio-text">
-                            <a style="text-decoration: none" href=" ">
+                            <a style="text-decoration: none" href="https://dcmarketingsolutions.net/2020/08/02/seo-search-engine-optimization/">
                                 <h3 class="h2h3 t2">Ecommerce</h3>
                             </a>
                             <p style="margin: 0; line-height: 1.2;">La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
@@ -112,7 +112,7 @@ get_header();
                     <div class="grid-container4" id="id_queremos_ayudarte">
                         <div class="item_14 linea_azul1"></div>
                         <div class="item_15">
-                            <a style="text-decoration: none" href=" ">
+                            <a style="text-decoration: none" href="https://dcmarketingsolutions.net/contacto/">
                                 <h3 class="h2h3 weWantHelpYou centrar">Queremos ayudarte</h3>
                             </a>
                         </div>

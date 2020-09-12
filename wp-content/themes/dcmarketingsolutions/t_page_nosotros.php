@@ -72,7 +72,7 @@ get_header();
               </div>
             </div>
             <div class="item_23 container-texto-conocenos">
-              <a style="text-decoration: none" href=" ">
+              <a style="text-decoration: none" href="https://dcmarketingsolutions.net/contacto/">
                 <h3 class="h2h3 meetUs">Conócenos</h3>
               </a>  
               <div style="text-align:left;">
