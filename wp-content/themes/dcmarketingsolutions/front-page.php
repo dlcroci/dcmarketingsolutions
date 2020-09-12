@@ -61,7 +61,7 @@
                                     <div class="ecommerce-logo"></div>
                                 </div>
                                 <div class="item_13 servicio-text">
-                                    <a style="text-decoration: none" href="https://dcmarketingsolutions.net/servicios/>
+                                    <a style="text-decoration: none" href="https://dcmarketingsolutions.net/servicios/">
                                         <h3 class="h2h3 t2">Ecommerce</h3>
                                     </a>
                                     <p style="margin: 0; line-height: 1.2;">La experiencia para implementar soluciones de Ecommerce escalables y rentables que cumplan con sus objetivos.</p>
