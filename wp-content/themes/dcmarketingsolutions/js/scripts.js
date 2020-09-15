@@ -8,8 +8,7 @@ import Search from "./modules/Search"
 import MyNotes from "./modules/MyNotes"
 import Like from "./modules/Like"
 import RevealOnScroll from "./modules/RevealOnScroll"
-import StickyHeader from './modules/StickyHeader'
-
+import StickyHeader from "./modules/StickyHeader"
 
 
 // Instantiate a new object using our modules / classes

@@ -26,7 +26,7 @@ get_header();
               <div class="hero-slider__overlay">
                 <h2 class="h2h3 headline headline--medium t-center">Profesionalismo</h2>
                 <p class="t-center" style="color: white"> Más de 20 años de experiencia nos avalan.</p>
-                <p class="t-center no-margin"><a href=""<?php echo site_url('#id_6') ?>"" class="btn btn--blue">Conoce más</a></p>
+                <p class="t-center no-margin"><a href="<?php echo site_url('/nosotros#xx') ?>" class="btn btn--blue">Conoce más</a></p>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ get_header();
               <div class="hero-slider__overlay">
                 <h2 class="h2h3 headline headline--medium t-center">Pasión</h2>
                 <p class="t-center" style="color: white">Queremos ayudarte a crecer.</p>
-                <p class="t-center no-margin"><a href=""<?php echo site_url('#id_6') ?>"" class="btn btn--blue">Conoce más</a></p>
+                <p class="t-center no-margin"><a href="<?php echo site_url('/nosotros#xx') ?>" class="btn btn--blue">Conoce más</a></p>
               </div>
             </div>
           </div>
@@ -44,7 +44,7 @@ get_header();
               <div class="hero-slider__overlay">
                 <h2 class="h2h3 headline headline--medium t-center">Dedicación</h2>
                 <p class="t-center" style="color: white">Nuestro objetivo es tu éxito.</p>
-                <p class="t-center no-margin"><a href=""<?php echo site_url('#id_6') ?>"" class="btn btn--blue">Conoce más</a></p>
+                <p class="t-center no-margin"><a href="<?php echo site_url('/nosotros#xx') ?>" class="btn btn--blue">Conoce más</a></p>
               </div>
             </div>
           </div>
@@ -53,7 +53,7 @@ get_header();
               <div class="hero-slider__overlay">
                 <h2 class="h2h3 headline headline--medium t-center">Análisis</h2>
                 <p class="t-center" style="color: white">Nuestro consejos estan basados <br>en un riguroso análisis.</p>
-                <p class="t-center no-margin"><a href=""<?php echo site_url('#id_6') ?>"" class="btn btn--blue">Conoce más</a></p>
+                <p class="t-center no-margin"><a href="<?php echo site_url('/nosotros#xx') ?>" class="btn btn--blue">Conoce más</a></p>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@ get_header();
         </div>
       </div>
     </div>
-    <div class="section-container">
+    <div class="section-container" id="xx">
       <div class="container1" id="id_container">    
         <div id="id_nosotros"> 
           <h2 class="h2h3" id="id_6">Quienes Somos</h2>
@@ -101,7 +101,6 @@ get_header();
   </section>
 </main>
 
-   
 <?php 
 
 get_footer();

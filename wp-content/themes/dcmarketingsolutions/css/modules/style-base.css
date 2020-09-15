@@ -1071,3 +1071,7 @@ textarea {
         text-align: justify !important;
     }
 }
+
+.estatica {
+    position: static;
+}

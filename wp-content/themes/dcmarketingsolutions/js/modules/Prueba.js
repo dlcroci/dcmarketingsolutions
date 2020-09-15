@@ -1,21 +1,27 @@
 class Prueba {
     constructor() {
-        this.objetivo = document.querySelector(".ffff")
+        this.trigger = document.querySelectorAll(".btn.btn--blue");
+        this.objetivo = document.querySelector("header");
         this.events()
+        this.pausar = false;
         }
 
     events() {
-        this.objetivo.addEventListener("click", () => this.saludar());
-        this.objetivo.addEventListener("click", () => this.pintar());
-        }
+        this.trigger.forEach(el => el.addEventListener("click", () => this.pausar() ));
+        this.trigger.forEach(el => el.addEventListener("scroll", () => this.reanudar() ));
+        this.trigger.forEach(el => el.addEventListener("click", () => this.ocultar() ));
+        }   
 
-    saludar() {
-        console.log(document.title);
-        }
-        
-    pintar() {
-        this.objetivo.classList.add("pintar");
+    ocultar() {
+        document.querySelector(".site-header").classList.add("ocultar");
     }
 
+    pausar() {
+        this.pausar = false;
+    }
+
+    reanudar() {
+        this.pausar = true;
+    }
 }
 export default Prueba
